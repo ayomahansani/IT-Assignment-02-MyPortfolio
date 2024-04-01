@@ -21,6 +21,12 @@ body {
     background-color: var(--bg-color);
 }
 
+.hero-section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
 .header {
     width: 100vw;
     height: 8vh;
@@ -105,4 +111,48 @@ body {
 .left-side-contacts .contacts img:hover {
     transform: scale(1.5);
     transition: 0.8s ease;
+}
+
+.hello-world {
+    font-size: 14rem;
+    color: var(--third-text-color);
+    opacity: 0.9;
+
+    position: absolute;
+
+    top: 9%;
+    left: 12%;
+}
+
+.name {
+    font-size: 9.5rem;
+    color: var(--text-color);
+    opacity: 0.8;
+
+    position: absolute;
+
+    top: 55%;
+    left: 12%;
+}
+
+.description {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    opacity: 0.6;
+
+    position: absolute;
+
+    top: 75%;
+    left: 50%;
+}
+
+.home-page-photo {
+
+    position: absolute;
+
+    top: 45%;
+    right: 10%;
+
+    transform: scale(3.3);
+    opacity: 0.6;
 }

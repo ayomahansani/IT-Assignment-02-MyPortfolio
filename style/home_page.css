@@ -43,24 +43,24 @@ body {
 
 .navbar {
     display: flex;
-    text-shadow: 3px 3px 5px var(--second-text-color);
+    text-shadow: 2px 2px 3px var(--second-text-color);
 }
 
 .navbar a {
     font-size: 2rem;
     color: var(--text-color);
     margin-left: 3rem;
-    font-weight: 500;
+    font-weight: 600;
     transition: 0.3s ease;
-    border-bottom: 4px solid transparent;
+    border-bottom: 5px solid transparent;
 }
 
 .navbar a:hover, .navbar a:active {
     color: var(--second-text-color);
-    border-bottom: 4px solid var(--second-text-color);
+    border-bottom: 5px solid var(--second-text-color);
 }
 
-.navbar h3 {
+.navbar h2 {
     font-size: 2.3rem;
     color: var(--text-color);
     margin-left: 3rem;
@@ -71,16 +71,38 @@ body {
     width: 5.5vw;
     height: 100vh;
 
+    position: relative;
+
     top: 0;
     left: 0;
 
     background-color: var(--second-bg-color);
     opacity: 0.8;
     backdrop-filter: blur(10px);
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     z-index: 5;
     box-shadow: 28px 10px rgba(255, 255, 255, 0.25);
+}
+
+.left-side-contacts .contacts {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side-contacts .contacts img {
+    width: 40%;
+    height: 40%;
+    margin: 25%;
+}
+
+.left-side-contacts .contacts img:hover {
+    transform: scale(1.5);
+    transition: 0.8s ease;
 }

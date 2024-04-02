@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --bg-color: black;
+    --second-bg-color: #B99292;
+    --text-color: white;
+    --second-text-color: black;
+    --third-text-color: rgba(185, 146, 146, 0.78);
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.hero-section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+}
+
+.header {
+    width: 100vw;
+    height: 8vh;
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    padding: 4rem 0 4rem 54%;
+
+    background-color: var(--second-bg-color);
+    opacity: 0.8;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+    box-shadow: 40px 28px 10px rgba(255, 255, 255, 0.25);
+}
+
+.navbar {
+    display: flex;
+    /*text-shadow: 2px 2px 3px var(--second-text-color);*/
+}
+
+.navbar a {
+    font-family: "Kameron", serif;
+    font-style: normal;
+    font-size: 2.1rem;
+    color: var(--second-text-color);
+    margin-left: 3rem;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+    border-bottom: 5px solid transparent;
+}
+
+.navbar a:hover, .navbar a.active {
+    color: var(--text-color);
+    border-bottom: 5px solid var(--text-color);
+}
+
+.navbar h2 {
+    font-size: 2.3rem;
+    color: var(--second-text-color);
+    margin-left: 3rem;
+    font-weight: 500;
+}
+
+.left-side-contacts {
+    width: 5.5vw;
+    height: 100vh;
+
+    position: relative;
+
+    top: 0;
+    left: 0;
+
+    background-color: var(--second-bg-color);
+    opacity: 0.8;
+    backdrop-filter: blur(10px);
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+    box-shadow: 28px 10px rgba(255, 255, 255, 0.25);
+}
+
+.left-side-contacts .contacts {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side-contacts .contacts img {
+    width: 40%;
+    height: 40%;
+    margin: 25%;
+}
+
+.left-side-contacts .contacts img:hover {
+    transform: scale(1.5);
+    transition: 0.8s ease-in-out;
+}
+
+.hello-world {
+    font-family: "Audiowide", sans-serif;
+    /*font-weight: 800;*/
+    font-style: normal;
+    font-size: 13rem;
+    color: var(--third-text-color);
+    opacity: 0.9;
+
+    position: absolute;
+
+    top: 8%;
+    left: 12%;
+
+    animation: hello-world 4s infinite alternate;
+}
+
+@keyframes hello-world {
+    from{
+        transform: translateX(0);
+        /*transform: rotate(0deg);*/
+        color: #B99292;
+    }to{
+         transform: translateX(80%);
+         /*transform: rotate(-90deg);*/
+     }
+}
+
+.name {
+    font-family: "Otomanopee One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8rem;
+    color: var(--text-color);
+    opacity: 0.8;
+
+    position: absolute;
+
+    top: 56%;
+    left: 12%;
+}
+
+.name:hover {
+    color: rgba(255, 255, 255, 0.88);
+}
+
+.description {
+    font-family: "Radley", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    color: var(--text-color);
+    opacity: 0.6;
+
+    position: absolute;
+
+    top: 76%;
+    left: 52%;
+
+}
+
+.description:hover {
+    transform: scale(1.1);
+    transition: 0.8s ease;
+}
+
+.home-page-photo {
+    position: absolute;
+
+    /*transform: scale(3.3);*/
+    top: 45%;
+    right: 10%;
+
+    opacity: 0.7;
+
+    animation: my-photo 4s infinite alternate;;
+}
+
+@keyframes my-photo  {
+    from{
+        transform: scale(2.8);
+    }to{
+         transform: scale(3.1);
+     }
+}
+
+@media (max-width: 1500px) {
+
+    .header {
+        width: 2vw;
+
+        position: fixed;
+
+        top: 0;
+        right: 0;
+        /*padding: 4rem 0 4rem 54%;*/
+
+        background-color: var(--second-bg-color);
+        opacity: 0.8;
+        backdrop-filter: blur(10px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 5;
+        box-shadow: 40px 28px 10px rgba(255, 255, 255, 0.25);
+    }
+
+    .hero-section {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+
+        overflow: hidden;
+    }
+
+    .hello-world {
+        font-family: "Audiowide", sans-serif;
+        font-style: normal;
+        font-size: 7rem;
+        color: var(--third-text-color);
+        opacity: 0.9;
+
+        position: absolute;
+
+        top: 0;
+        left: 8%;
+
+        animation: hello-world 4s infinite alternate;
+    }
+
+    @keyframes hello-world {
+        from{
+            transform: translateX(0);
+            color: #B99292;
+        }to{
+             transform: translateX(70%);
+         }
+    }
+
+    .name {
+        font-family: "Otomanopee One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 5rem;
+        color: var(--text-color);
+        opacity: 0.8;
+
+        position: absolute;
+
+        top: 26%;
+        left: 8%;
+    }
+
+    .name:hover {
+        color: rgba(255, 255, 255, 0.88);
+    }
+
+    .description {
+        font-family: "Radley", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: var(--text-color);
+        opacity: 0.6;
+
+        position: absolute;
+
+        top: 37%;
+        left: 8%;
+
+    }
+
+    .description:hover {
+        transform: scale(1.1);
+        transition: 0.8s ease;
+    }
+
+    .home-page-photo {
+        position: absolute;
+
+        top: 50%;
+        right: 11%;
+
+        opacity: 0.7;
+
+        animation: my-photo 4s infinite alternate;;
+    }
+
+    @keyframes my-photo  {
+        from{
+            transform: scale(2.3);
+        }to{
+             transform: scale(2.5);
+         }
+    }
+
+    .left-side-contacts {
+        width: 8vw;
+        height: 40vh;
+
+        position: absolute;
+
+        top: 54%;
+
+        background-color: var(--second-bg-color);
+        opacity: 0.8;
+        backdrop-filter: blur(10px);
+        justify-content: space-between;
+        align-items: center;
+        z-index: 5;
+        box-shadow: 30px 28px 10px rgba(255, 255, 255, 0.25);
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-side-contacts .contacts img {
+        width: 40%;
+        height: 40%;
+        margin: 22%;
+    }
+
+    .left-side-contacts .contacts img:hover {
+        transform: scale(1.5);
+        transition: 0.8s ease-in-out;
+    }
+}

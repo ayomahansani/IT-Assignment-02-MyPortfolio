@@ -37,7 +37,7 @@ body {
 
     top: 0;
     left: 0;
-    padding: 4rem 0 4rem 57%;
+    padding: 4rem 0 4rem 54%;
 
     background-color: var(--second-bg-color);
     opacity: 0.8;
@@ -51,26 +51,28 @@ body {
 
 .navbar {
     display: flex;
-    text-shadow: 2px 2px 3px var(--second-text-color);
+    /*text-shadow: 2px 2px 3px var(--second-text-color);*/
 }
 
 .navbar a {
-    font-size: 2rem;
-    color: var(--text-color);
+    font-family: "Kameron", serif;
+    font-style: normal;
+    font-size: 2.1rem;
+    color: var(--second-text-color);
     margin-left: 3rem;
-    font-weight: 600;
+    font-weight: 700;
     transition: 0.3s ease;
     border-bottom: 5px solid transparent;
 }
 
 .navbar a:hover, .navbar a:active {
-    color: var(--second-text-color);
-    border-bottom: 5px solid var(--second-text-color);
+    color: var(--text-color);
+    border-bottom: 5px solid var(--text-color);
 }
 
 .navbar h2 {
     font-size: 2.3rem;
-    color: var(--text-color);
+    color: var(--second-text-color);
     margin-left: 3rem;
     font-weight: 500;
 }
@@ -116,26 +118,32 @@ body {
 }
 
 .hello-world {
-    font-size: 14rem;
+    font-family: "Audiowide", sans-serif;
+    /*font-weight: 800;*/
+    font-style: normal;
+    font-size: 13rem;
     color: var(--third-text-color);
     opacity: 0.9;
 
     position: absolute;
 
-    top: 9%;
+    top: 8%;
     left: 12%;
 
     animation: hello-world 4s infinite alternate;
 }
 
 .name {
-    font-size: 9.5rem;
+    /*font-family: "Otomanopee One", serif;
+    font-weight: 400;
+    font-style: normal;*/
+    font-size: 8rem;
     color: var(--text-color);
     opacity: 0.8;
 
     position: absolute;
 
-    top: 60%;
+    top: 56%;
     left: 12%;
 }
 
@@ -144,14 +152,18 @@ body {
 }
 
 .description {
-    font-size: 2.5rem;
+    font-family: "Radley", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
     color: var(--text-color);
     opacity: 0.6;
 
     position: absolute;
 
-    top: 75%;
+    top: 76%;
     left: 50%;
+
 }
 
 .description:hover {
@@ -162,7 +174,7 @@ body {
 .home-page-photo {
     position: absolute;
 
-    transform: scale(3.3);
+    /*transform: scale(3.3);*/
     top: 45%;
     right: 10%;
 
@@ -184,9 +196,10 @@ body {
 
 @keyframes my-photo  {
     from{
-        opacity: 0.6;
+        opacity: 0.8;
+        transform: scale(2.8);
     }to{
-       opacity: 0.6;
-       transform: scale(3.6);
+       opacity: 0.8;
+       transform: scale(3.1);
      }
 }

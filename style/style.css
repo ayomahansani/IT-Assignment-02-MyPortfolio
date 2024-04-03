@@ -169,6 +169,10 @@ body {
     /*opacity: 0.8;*/
 }
 
+.name-part:hover {
+    color: rgba(255, 255, 255, 0.88);
+}
+
 .description {
     font-family: "Radley", serif;
     font-weight: 400;

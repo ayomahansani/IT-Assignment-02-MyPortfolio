@@ -1,3 +1,5 @@
+// Start Home Page
+
 const header = document.querySelector("header");
 
 window.addEventListener("scroll", () => {
@@ -19,3 +21,5 @@ menuIcon.addEventListener("click", () => {
 closeIcon.addEventListener("click", () => {
     mobileMenuContainer.classList.remove("active");
 });
+
+// End Home Page

@@ -1056,6 +1056,7 @@ header.scrolled {
         opacity: 0.8;
         backdrop-filter: blur(10px);
         box-shadow: 16px 12px 1px rgba(255, 255, 255, 0.28);
+
     }
 
     /* navigation menu */
@@ -1217,7 +1218,9 @@ header.scrolled {
 
         opacity: 0.6;
 
-        animation: my-photo 4s infinite alternate;;
+        animation: my-photo 4s infinite alternate;
+
+        overflow-x: hidden;
     }
 
     /*@keyframes my-photo  {*/

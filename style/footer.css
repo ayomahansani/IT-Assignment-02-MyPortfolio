@@ -51,8 +51,6 @@
 .footer-right h5, .footer-right h6 {
     display: flex;
     justify-content: flex-end;
-
-
 }
 
 .footer-left h5, .footer-right h5 {
@@ -120,6 +118,349 @@
     opacity: 0.8;
 }
 
+/* ----------------------------------------- */
+
 @media (max-width: 1350px) {
-    
+
+    .footer-left {
+        position: absolute;
+
+        width: 35%;
+        height: 20%;
+
+        top: 23%;
+        left: 8%;
+    }
+
+    .footer-bottom {
+        position: absolute;
+
+        width: 19%;
+        height: 17%;
+
+        top: 90%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-contact img {
+        width: 7%;
+        height: 52%;
+    }
+
+}
+
+/* ----------------------------------------- */
+
+@media (max-width: 1290px) {
+
+    .footer-contact img {
+        width: 6.5%;
+        height: 45%;
+    }
+}
+
+/* ----------------------------------------- */
+
+@media (max-width: 1200px) {
+
+    .footer-bottom {
+        position: absolute;
+
+        width: 20%;
+        height: 17%;
+
+        top: 90%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+/* ----------------------------------------- */
+
+@media (max-width: 1153px) {
+
+    .footer-left {
+        position: absolute;
+
+        width: 40%;
+        height: 20%;
+
+        top: 23%;
+        left: 8%;
+    }
+
+    .footer-right {
+        position: absolute;
+
+        width: 35%;
+        height: 20%;
+
+        top: 23%;
+        right: 8%;
+    }
+
+    .footer-contact img {
+        width: 6%;
+        height: 40%;
+    }
+
+    .footer-bottom {
+        position: absolute;
+
+        width: 22%;
+        height: 17%;
+
+        top: 90%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+/* ----------------------------------------- */
+
+@media (max-width: 1035px) {
+
+    .footer-bottom {
+        position: absolute;
+
+        width: 29%;
+        height: 17%;
+
+        top: 90%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+/* ----------------------------------------- */
+
+@media (max-width: 1024px) {
+
+    .footer-left {
+        position: absolute;
+
+        width: 40%;
+        height: 20%;
+
+        top: 23%;
+        left: 8%;
+    }
+
+    .footer-right {
+        position: absolute;
+
+        width: 35%;
+        height: 20%;
+
+        top: 23%;
+        right: 8%;
+    }
+
+    .footer-left h5, .footer-right h5 {
+        font-family: "Markazi Text", serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 1.3rem;
+    }
+
+    .footer-left h6, .footer-right h6 {
+        font-family: "Italianno", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.7rem;
+
+        margin-top: 0.8rem;
+    }
+
+    .footer-contact img {
+        width: 6%;
+        height: 36%;
+    }
+
+    .footer-bottom {
+        position: absolute;
+
+        width: 28%;
+        height: 17%;
+
+        top: 90%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+/* ----------------------------------------- */
+
+@media (max-width: 950px) {
+
+    .footer-left {
+        position: absolute;
+
+        width: 44%;
+        height: 20%;
+
+        top: 23%;
+        left: 8%;
+    }
+
+    .footer-right {
+        position: absolute;
+
+        width: 35%;
+        height: 20%;
+
+        top: 23%;
+        right: 8%;
+    }
+
+    .footer-left h5, .footer-right h5 {
+        font-family: "Markazi Text", serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 1.3rem;
+    }
+
+    .footer-left h6, .footer-right h6 {
+        font-family: "Italianno", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.7rem;
+
+        margin-top: 0.8rem;
+    }
+
+    .footer-contact img {
+        width: 6%;
+        height: 32%;
+    }
+
+    .footer-bottom {
+        position: absolute;
+
+        width: 26%;
+        height: 17%;
+
+        top: 90%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+/* ----------------------------------------- */
+
+@media (max-width: 895px) {
+
+    .footer-right {
+        position: absolute;
+
+        width: 37%;
+        height: 20%;
+
+        top: 23%;
+        right: 8%;
+    }
+
+    .footer-left h5, .footer-right h5 {
+        font-family: "Markazi Text", serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 1.2rem;
+    }
+
+    .footer-left h6, .footer-right h6 {
+        font-family: "Italianno", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.6rem;
+
+        margin-top: 0.8rem;
+    }
+
+    .footer-contact img {
+        width: 6%;
+        height: 32%;
+    }
+
+    .footer-bottom {
+        position: absolute;
+
+        width: 30%;
+        height: 17%;
+
+        top: 90%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+/* ----------------------------------------- */
+
+@media (max-width: 788px) {
+
+    .footer-left {
+        position: absolute;
+
+        width: 44%;
+        height: 20%;
+
+        top: 23%;
+        left: 4%;
+    }
+
+    .footer-right {
+        position: absolute;
+
+        width: 37%;
+        height: 20%;
+
+        top: 23%;
+        right: 4%;
+    }
+
+    .footer-left h5, .footer-right h5 {
+        font-family: "Markazi Text", serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 1.2rem;
+    }
+
+    .footer-left h6, .footer-right h6 {
+        font-family: "Italianno", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.6rem;
+
+        margin-top: 0.8rem;
+    }
+
+    .footer-contact img {
+        width: 6%;
+        height: 32%;
+    }
+
+    .footer-bottom {
+        position: absolute;
+
+        width: 30%;
+        height: 17%;
+
+        top: 90%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
 }

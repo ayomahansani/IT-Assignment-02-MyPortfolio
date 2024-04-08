@@ -25,5 +25,42 @@
     overflow: hidden;
 
     background-color: var(--bg-color);
-    /*opacity: 0.8;*/
+}
+
+.aboutMe-left-side {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+
+    left: 0;
+}
+
+.aboutMe-right-side {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+
+    right: 0;
+}
+
+.aboutMe-left-side .myPhoto {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    border-radius: 100%;
+    background-color: white;
+
+    top: 10%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.aboutMe-left-side .myPhoto img {
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    border-radius: 100%;
+    transform: scale(2);
+    top: 15%;
 }

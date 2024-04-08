@@ -39,6 +39,7 @@
     position: absolute;
     width: 60%;
     height: 100%;
+    /*background-color: rosybrown;*/
 
     right: 0;
 }
@@ -63,4 +64,145 @@
     border-radius: 100%;
     transform: scale(2);
     top: 15%;
+}
+
+.aboutMe-right-side .aboutMe-right-side-top {
+    position: absolute;
+    width: 65%;
+    height: 10%;
+    /*background-color: grey;*/
+
+    top: 13%;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+.aboutMe-right-side .aboutMe-right-side-content {
+    position: absolute;
+    width: 65%;
+    height: 60%;
+    /*background-color: white;*/
+
+    top: 26%;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+.aboutMe-right-side .aboutMe-right-side-top h3 {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    font-family: "Kumar One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8rem;
+    color: var(--text-color);
+}
+
+.aboutMe-right-side .aboutMe-right-side-top h3 img{
+    position: absolute;
+    bottom: 0;
+}
+
+.aboutMe-right-side .aboutMe-right-side-top h3 span {
+    font-family: "Kumar One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8rem;
+    color: var(--third-text-color);
+    opacity: 0.8;
+}
+
+.aboutMe-right-side .aboutMe-right-side-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutMe-right-side .aboutMe-right-side-content .first-para {
+    position: relative;
+}
+
+.aboutMe-right-side .aboutMe-right-side-content .first-para h5{
+    font-family: "Aref Ruqaa", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.3rem;
+    color: #9d9d9d;
+}
+
+.aboutMe-right-side .aboutMe-right-side-content .first-para p{
+    font-family: "Aref Ruqaa", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    color: grey;
+}
+
+.aboutMe-right-side .aboutMe-right-side-content .second-para h5{
+    font-family: "Aref Ruqaa", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.3rem;
+    color: #9d9d9d;
+}
+
+.aboutMe-right-side .aboutMe-right-side-content .second-para p{
+    font-family: "Aref Ruqaa", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    color: grey;
+}
+
+.aboutMe-right-side .aboutMe-right-side-content .third-para h5{
+    font-family: "Aref Ruqaa", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.3rem;
+    color: #9d9d9d;
+}
+
+.aboutMe-right-side .aboutMe-right-side-content .third-para p{
+    font-family: "Aref Ruqaa", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    color: grey;
+}
+
+.aboutMe-left-side .myCV {
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    border-left: 4px solid var(--second-bg-color);
+    background-color: grey;
+
+    bottom: 7%;
+    left: 8%;
+}
+
+.aboutMe-left-side .myCV p{
+    font-family: "Tapestry", serif;
+    font-weight: 400;
+    font-style: normal;
+    /*font-size: 1.2rem;*/
+    color: white;
+    margin-left: 1.2rem;
+}
+
+.aboutMe-left-side .myCV p:nth-child(2){
+    margin-top: 1.2rem;
 }

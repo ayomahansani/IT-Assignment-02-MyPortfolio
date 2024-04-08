@@ -17,7 +17,7 @@
     --third-text-color: #B99292;
 }
 
-.aboutMeTopic-section {
+.myProjectsTopic-section {
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -26,7 +26,7 @@
 
 }
 
-.aboutMeTopic-top-section {
+.myProjectsTopic-top-section {
     position: relative;
     width: 100vw;
     height: 88vh;
@@ -34,14 +34,14 @@
     background-color: var(--second-bg-color);
 }
 
-.aboutMeTopic-img img {
+.myProjectsTopic-img img {
     position: absolute;
     width: 100vw;
     height: 100vh;
 
     transform: scale(1.5);
 
-    opacity: 0.3;
+    opacity: 0.18;
 }
 
 .title {
@@ -81,7 +81,7 @@
     margin: auto;
 }
 
-.aboutMeTopic-top {
+.myProjectsTopic-top {
     position: absolute;
     width: 100vw;
     height: 12vh;
@@ -92,7 +92,7 @@
     /*opacity: 0.8;*/
 }
 
-.aboutMeTopic-bottom {
+.myProjectsTopic-bottom {
     position: absolute;
     width: 100vw;
     height: 12vh;
@@ -104,16 +104,16 @@
 
 /* -------------------------------------------------------- */
 
-@media (max-width: 768px) {
+@media (max-width: 810px) {
 
-    .aboutMeTopic-img img {
+    .myProjectsTopic-img img {
         position: absolute;
         width: 100vw;
         height: 100vh;
 
         transform: scale(1.4);
 
-        opacity: 0.3;
+        opacity: 0.15;
     }
 
     .title {
@@ -157,16 +157,175 @@
 
 /* -------------------------------------------------------- */
 
+@media (max-width: 768px) {
+
+    .myProjectsTopic-img img {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+
+        transform: scale(1.4);
+
+        opacity: 0.15;
+    }
+
+    .title {
+        position: absolute;
+        width: 100%;
+        height: 20%;
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        text-align: center;
+        align-items: center;
+    }
+
+    .title h1 {
+        position: absolute;
+
+        width: 80%;
+        height: 60%;
+
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 4.5rem;
+        color: var(--second-text-color);
+        z-index: 1000;
+        text-align: center;
+        text-shadow: 55px 55px 10px rgba(0, 0, 0, 0.4);
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 605px) {
+
+    .myProjectsTopic-img img {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+
+        transform: scale(1.4);
+
+        opacity: 0.15;
+    }
+
+    .title {
+        position: absolute;
+        width: 100%;
+        height: 20%;
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        text-align: center;
+        align-items: center;
+    }
+
+    .title h1 {
+        position: absolute;
+
+        width: 80%;
+        height: 60%;
+
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 4.4rem;
+        color: var(--second-text-color);
+        z-index: 1000;
+        text-align: center;
+        text-shadow: 55px 55px 10px rgba(0, 0, 0, 0.4);
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 590px) {
+
+    .myProjectsTopic-img img {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+
+        transform: scale(1.4);
+
+        opacity: 0.15;
+    }
+
+    .title {
+        position: absolute;
+        width: 100%;
+        height: 20%;
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        text-align: center;
+        align-items: center;
+    }
+
+    .title h1 {
+        position: absolute;
+
+        width: 80%;
+        height: 60%;
+
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 4rem;
+        color: var(--second-text-color);
+        z-index: 1000;
+        text-align: center;
+        text-shadow: 55px 55px 10px rgba(0, 0, 0, 0.4);
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+/* -------------------------------------------------------- */
+
 @media (max-width: 533px) {
 
-    .aboutMeTopic-img img {
+    .myProjectsTopic-img img {
         position: absolute;
         width: 100vw;
         height: 100vh;
 
         transform: scale(1.5);
 
-        opacity: 0.3;
+        opacity: 0.15;
     }
 
     .title {
@@ -212,14 +371,14 @@
 
 @media (max-width: 425px) {
 
-    .aboutMeTopic-img img {
+    .myProjectsTopic-img img {
         position: absolute;
         width: 100vw;
         height: 100vh;
 
         transform: scale(1.5);
 
-        opacity: 0.3;
+        opacity: 0.15;
     }
 
     .title {
@@ -265,14 +424,14 @@
 
 @media (max-width: 375px) {
 
-    .aboutMeTopic-img img {
+    .myProjectsTopic-img img {
         position: absolute;
         width: 100vw;
         height: 100vh;
 
         transform: scale(1.5);
 
-        opacity: 0.3;
+        opacity: 0.15;
     }
 
     .title {
@@ -318,14 +477,14 @@
 
 @media (max-width: 320px) {
 
-    .aboutMeTopic-img img {
+    .myProjectsTopic-img img {
         position: absolute;
         width: 100vw;
         height: 100vh;
 
         transform: scale(1.5);
 
-        opacity: 0.3;
+        opacity: 0.15;
     }
 
     .title {

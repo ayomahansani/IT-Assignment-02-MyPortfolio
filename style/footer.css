@@ -55,14 +55,14 @@
 
 .footer-left h5, .footer-right h5 {
     font-family: "Markazi Text", serif;
-    font-weight: 600;
+    font-weight: 300;
     font-style: normal;
     font-size: 1.4rem;
 }
 
 .footer-left h6, .footer-right h6 {
     font-family: "Italianno", cursive;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-size: 1.9rem;
 
@@ -88,6 +88,11 @@
 .footer-contact img {
     width: 7%;
     height: 55%;
+}
+
+.footer-contact img:hover {
+    transform: scale(1.3);
+    transition: 0.5s ease-in-out;
 }
 
 .footer-contact .contact-img {
@@ -146,7 +151,7 @@
 
     .footer-contact img {
         width: 7%;
-        height: 52%;
+        height: 55%;
     }
 
 }
@@ -237,6 +242,11 @@
         margin: auto;
     }
 
+    .footer-contact img {
+        width: 7%;
+        height: 40%;
+    }
+
 }
 
 /* ----------------------------------------- */
@@ -265,14 +275,14 @@
 
     .footer-left h5, .footer-right h5 {
         font-family: "Markazi Text", serif;
-        font-weight: 600;
+        font-weight: 300;
         font-style: normal;
         font-size: 1.3rem;
     }
 
     .footer-left h6, .footer-right h6 {
         font-family: "Italianno", cursive;
-        font-weight: 400;
+        font-weight: 300;
         font-style: normal;
         font-size: 1.7rem;
 
@@ -280,8 +290,8 @@
     }
 
     .footer-contact img {
-        width: 6%;
-        height: 36%;
+        width: 7%;
+        height: 40%;
     }
 
     .footer-bottom {
@@ -315,7 +325,7 @@
     .footer-right {
         position: absolute;
 
-        width: 35%;
+        width: 36%;
         height: 20%;
 
         top: 23%;
@@ -324,14 +334,14 @@
 
     .footer-left h5, .footer-right h5 {
         font-family: "Markazi Text", serif;
-        font-weight: 600;
+        font-weight: 300;
         font-style: normal;
         font-size: 1.3rem;
     }
 
     .footer-left h6, .footer-right h6 {
         font-family: "Italianno", cursive;
-        font-weight: 400;
+        font-weight: 300;
         font-style: normal;
         font-size: 1.7rem;
 
@@ -339,8 +349,8 @@
     }
 
     .footer-contact img {
-        width: 6%;
-        height: 32%;
+        width: 7%;
+        height: 36%;
     }
 
     .footer-bottom {
@@ -364,7 +374,7 @@
     .footer-right {
         position: absolute;
 
-        width: 37%;
+        width: 38%;
         height: 20%;
 
         top: 23%;
@@ -373,14 +383,14 @@
 
     .footer-left h5, .footer-right h5 {
         font-family: "Markazi Text", serif;
-        font-weight: 600;
+        font-weight: 300;
         font-style: normal;
         font-size: 1.2rem;
     }
 
     .footer-left h6, .footer-right h6 {
         font-family: "Italianno", cursive;
-        font-weight: 400;
+        font-weight: 300;
         font-style: normal;
         font-size: 1.6rem;
 
@@ -388,8 +398,8 @@
     }
 
     .footer-contact img {
-        width: 6%;
-        height: 32%;
+        width: 7%;
+        height: 36%;
     }
 
     .footer-bottom {
@@ -408,12 +418,12 @@
 
 /* ----------------------------------------- */
 
-@media (max-width: 788px) {
+@media (max-width: 798px) {
 
     .footer-left {
         position: absolute;
 
-        width: 44%;
+        width: 46%;
         height: 20%;
 
         top: 23%;
@@ -423,7 +433,7 @@
     .footer-right {
         position: absolute;
 
-        width: 37%;
+        width: 39%;
         height: 20%;
 
         top: 23%;
@@ -432,14 +442,14 @@
 
     .footer-left h5, .footer-right h5 {
         font-family: "Markazi Text", serif;
-        font-weight: 600;
+        font-weight: 300;
         font-style: normal;
         font-size: 1.2rem;
     }
 
     .footer-left h6, .footer-right h6 {
         font-family: "Italianno", cursive;
-        font-weight: 400;
+        font-weight: 300;
         font-style: normal;
         font-size: 1.6rem;
 
@@ -447,8 +457,8 @@
     }
 
     .footer-contact img {
-        width: 6%;
-        height: 32%;
+        width: 7%;
+        height: 36%;
     }
 
     .footer-bottom {
@@ -464,3 +474,535 @@
     }
 
 }
+
+/* ----------------------------------------- */
+
+@media (max-width: 768px) {
+
+    .footer-left {
+
+        position: absolute;
+
+        width: 50%;
+        height: 40%;
+
+        top: 20%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-right {
+
+        position: absolute;
+
+        width: 50%;
+        height: 40%;
+
+        top: 28%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-left h5 {
+        position: absolute;
+        bottom: 90%;
+    }
+
+    .footer-right h5, .footer-right h6, .footer-left h5, .footer-left h6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-left h6 {
+        padding-top: 3.5rem;
+    }
+
+    .footer-right h6 {
+        padding-top: 2.5rem;
+    }
+
+    .footer-left h5, .footer-right h5 {
+        font-family: "Markazi Text", serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1.3rem;
+    }
+
+    .footer-left h6, .footer-right h6 {
+        font-family: "Italianno", cursive;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1.7rem;
+
+        margin-top: 0.8rem;
+    }
+
+    .footer-bottom {
+        position: absolute;
+
+        width: 30%;
+        height: 17%;
+
+        top: 90%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-bottom p {
+        position: absolute;
+
+        padding: 0.5em;
+        font-size: 0.7rem;
+        opacity: 0.8;
+    }
+
+    .footer-contact {
+        position: absolute;
+
+        width: 50%;
+        height: 20%;
+
+        top: 65%;
+        right: 0;
+        left: 0;
+        margin: auto;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-contact img {
+        width: 7%;
+        height: 38%;
+    }
+}
+
+/* ----------------------------------------- */
+
+@media (max-width: 745px) {
+
+    .footer-left {
+
+        position: absolute;
+
+        width: 55%;
+        height: 40%;
+
+        top: 20%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-right {
+
+        position: absolute;
+
+        width: 50%;
+        height: 40%;
+
+        top: 28%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-left h5 {
+        position: absolute;
+        bottom: 90%;
+    }
+
+    .footer-right h5, .footer-right h6, .footer-left h5, .footer-left h6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-left h6 {
+        padding-top: 3.5rem;
+    }
+
+    .footer-right h6 {
+        padding-top: 2.5rem;
+    }
+
+    .footer-left h5, .footer-right h5 {
+        font-family: "Markazi Text", serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1.3rem;
+    }
+
+    .footer-left h6, .footer-right h6 {
+        font-family: "Italianno", cursive;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1.7rem;
+
+        margin-top: 0.8rem;
+    }
+
+    .footer-bottom {
+        position: absolute;
+
+        width: 35%;
+        height: 17%;
+
+        top: 90%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-bottom p {
+        position: absolute;
+
+        padding: 0.5em;
+        font-size: 0.7rem;
+        opacity: 0.8;
+    }
+
+    .footer-contact {
+        position: absolute;
+
+        width: 50%;
+        height: 20%;
+
+        top: 65%;
+        right: 0;
+        left: 0;
+        margin: auto;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-contact img {
+        width: 7%;
+        height: 35%;
+    }
+}
+
+/* ----------------------------------------- */
+
+@media (max-width: 680px) {
+
+    .footer-left {
+
+        position: absolute;
+
+        width: 65%;
+        height: 40%;
+
+        top: 20%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-right {
+
+        position: absolute;
+
+        width: 55%;
+        height: 40%;
+
+        top: 28%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-contact img {
+        width: 7.5%;
+        height: 35%;
+    }
+
+}
+
+/* ----------------------------------------- */
+
+@media (max-width: 582px) {
+
+    .footer-left {
+
+        position: absolute;
+
+        width: 70%;
+        height: 40%;
+
+        top: 20%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-right {
+
+        position: absolute;
+
+        width: 60%;
+        height: 40%;
+
+        top: 28%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-bottom {
+        position: absolute;
+
+        width: 40%;
+        height: 17%;
+
+        top: 90%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-bottom p {
+        position: absolute;
+
+        padding: 0.5em;
+        font-size: 0.7rem;
+        opacity: 0.8;
+    }
+
+    .footer-contact img {
+        width: 8%;
+        height: 35%;
+    }
+}
+
+/* ----------------------------------------- */
+
+@media (max-width: 533px) {
+
+    .footer-left {
+
+        position: absolute;
+
+        width: 70%;
+        height: 40%;
+
+        top: 20%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-right {
+
+        position: absolute;
+
+        width: 60%;
+        height: 40%;
+
+        top: 28%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-bottom {
+        position: absolute;
+
+        width: 40%;
+        height: 17%;
+
+        top: 90%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-bottom p {
+        position: absolute;
+
+        padding: 0.5em;
+        font-size: 0.7rem;
+        opacity: 0.8;
+    }
+
+    .footer-contact img {
+        width: 9%;
+        height: 35%;
+    }
+}
+
+/* ----------------------------------------- */
+
+@media (max-width: 425px) {
+
+    .footer-left {
+
+        position: absolute;
+
+        width: 70%;
+        height: 40%;
+
+        top: 20%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-right {
+
+        position: absolute;
+
+        width: 60%;
+        height: 40%;
+
+        top: 28%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-bottom {
+        position: absolute;
+
+        width: 40%;
+        height: 17%;
+
+        top: 90%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-bottom p {
+        position: absolute;
+
+        padding: 0.5em;
+        font-size: 0.7rem;
+        opacity: 0.8;
+    }
+
+    .footer-contact img {
+        width: 9%;
+        height: 35%;
+    }
+}
+
+/* ----------------------------------------- */
+
+@media (max-width: 375px) {
+
+    .footer-left {
+
+        position: absolute;
+
+        width: 70%;
+        height: 40%;
+
+        top: 20%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-right {
+
+        position: absolute;
+
+        width: 60%;
+        height: 40%;
+
+        top: 28%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-bottom {
+        position: absolute;
+
+        width: 40%;
+        height: 17%;
+
+        top: 90%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-bottom p {
+        position: absolute;
+
+        padding: 0.5em;
+        font-size: 0.7rem;
+        opacity: 0.8;
+    }
+
+    .footer-contact img {
+        width: 9%;
+        height: 35%;
+    }
+}
+
+/* ----------------------------------------- */
+
+@media (max-width: 320px) {
+
+    .footer-left {
+
+        position: absolute;
+
+        width: 70%;
+        height: 40%;
+
+        top: 20%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-right {
+
+        position: absolute;
+
+        width: 60%;
+        height: 40%;
+
+        top: 28%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-bottom {
+        position: absolute;
+
+        width: 40%;
+        height: 17%;
+
+        top: 90%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-bottom p {
+        position: absolute;
+
+        padding: 0.5em;
+        font-size: 0.7rem;
+        opacity: 0.8;
+    }
+
+    .footer-contact img {
+        width: 9%;
+        height: 35%;
+    }
+}
+

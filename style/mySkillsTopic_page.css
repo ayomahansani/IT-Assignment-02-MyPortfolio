@@ -17,7 +17,7 @@
     --third-text-color: #B99292;
 }
 
-.aboutMeTopic-section {
+.mySkillsTopic-section {
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -26,7 +26,7 @@
 
 }
 
-.aboutMeTopic-top-section {
+.mySkillsTopic-top-section {
     position: relative;
     width: 100vw;
     height: 88vh;
@@ -34,14 +34,14 @@
     background-color: var(--second-bg-color);
 }
 
-.aboutMeTopic-img img {
+.mySkillsTopic-img img {
     position: absolute;
     width: 100vw;
     height: 100vh;
 
     transform: scale(1.5);
 
-    opacity: 0.3;
+    opacity: 0.15;
 }
 
 .title {
@@ -81,7 +81,7 @@
     margin: auto;
 }
 
-.aboutMeTopic-top {
+.mySkillsTopic-top {
     position: absolute;
     width: 100vw;
     height: 12vh;
@@ -92,7 +92,7 @@
     /*opacity: 0.8;*/
 }
 
-.aboutMeTopic-bottom {
+.mySkillsTopic-bottom {
     position: absolute;
     width: 100vw;
     height: 12vh;
@@ -106,14 +106,14 @@
 
 @media (max-width: 768px) {
 
-    .aboutMeTopic-img img {
+    .mySkillsTopic-img img {
         position: absolute;
         width: 100vw;
         height: 100vh;
 
         transform: scale(1.4);
 
-        opacity: 0.3;
+        opacity: 0.15;
     }
 
     .title {
@@ -159,14 +159,14 @@
 
 @media (max-width: 533px) {
 
-    .aboutMeTopic-img img {
+    .mySkillsTopic-img img {
         position: absolute;
         width: 100vw;
         height: 100vh;
 
         transform: scale(1.5);
 
-        opacity: 0.3;
+        opacity: 0.15;
     }
 
     .title {
@@ -212,14 +212,14 @@
 
 @media (max-width: 425px) {
 
-    .aboutMeTopic-img img {
+    .mySkillsTopic-img img {
         position: absolute;
         width: 100vw;
         height: 100vh;
 
         transform: scale(1.5);
 
-        opacity: 0.3;
+        opacity: 0.15;
     }
 
     .title {
@@ -265,14 +265,14 @@
 
 @media (max-width: 375px) {
 
-    .aboutMeTopic-img img {
+    .mySkillsTopic-img img {
         position: absolute;
         width: 100vw;
         height: 100vh;
 
         transform: scale(1.5);
 
-        opacity: 0.3;
+        opacity: 0.15;
     }
 
     .title {
@@ -318,14 +318,14 @@
 
 @media (max-width: 320px) {
 
-    .aboutMeTopic-img img {
+    .mySkillsTopic-img img {
         position: absolute;
         width: 100vw;
         height: 100vh;
 
         transform: scale(1.5);
 
-        opacity: 0.3;
+        opacity: 0.15;
     }
 
     .title {

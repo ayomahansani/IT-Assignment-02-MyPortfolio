@@ -3,7 +3,7 @@
 const header = document.querySelector("header");
 
 window.addEventListener("scroll", () => {
-    if(window.pageYOffset > 710) {
+    if(window.pageYOffset > 680) {
         header.classList.add("scrolled");
     }else {
         header.classList.remove("scrolled");

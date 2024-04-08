@@ -1,0 +1,794 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --bg-color: black;
+    --second-bg-color: #B99292;
+    --text-color: white;
+    --second-text-color: black;
+    --third-text-color: #B99292;
+}
+
+.myAssignmentsTopic-section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+
+}
+
+.myAssignmentsTopic-top-section {
+    position: relative;
+    width: 100vw;
+    height: 88vh;
+    opacity: 0.9;
+    background-color: var(--second-bg-color);
+}
+
+.myAssignmentsTopic-img img {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+
+    transform: scale(1.5);
+
+    opacity: 0.1;
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    text-align: center;
+    align-items: center;
+}
+
+.title h1 {
+    position: absolute;
+
+    width: 80%;
+    height: 60%;
+
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6rem;
+    color: var(--second-text-color);
+    z-index: 1000;
+    text-align: center;
+    text-shadow: 55px 55px 10px rgba(0, 0, 0, 0.4);
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.myAssignmentsTopic-top {
+    position: absolute;
+    width: 100vw;
+    height: 12vh;
+
+    top: 0;
+    background-color: var(--second-bg-color);
+    z-index: 1000;
+    /*opacity: 0.8;*/
+}
+
+.myAssignmentsTopic-bottom {
+    position: absolute;
+    width: 100vw;
+    height: 12vh;
+
+    bottom: 0;
+    background-color: var(--bg-color);
+    z-index: 2000;
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 1085px) {
+
+    .myAssignmentsTopic-img img {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+
+        transform: scale(1.4);
+
+        opacity: 0.1;
+    }
+
+    .title {
+        position: absolute;
+        width: 100%;
+        height: 20%;
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        text-align: center;
+        align-items: center;
+    }
+
+    .title h1 {
+        position: absolute;
+
+        width: 80%;
+        height: 60%;
+
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 4.4rem;
+        color: var(--second-text-color);
+        z-index: 1000;
+        text-align: center;
+        text-shadow: 55px 55px 10px rgba(0, 0, 0, 0.4);
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 810px) {
+
+    .myAssignmentsTopic-img img {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+
+        transform: scale(1.4);
+
+        opacity: 0.1;
+    }
+
+    .title {
+        position: absolute;
+        width: 100%;
+        height: 20%;
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        text-align: center;
+        align-items: center;
+    }
+
+    .title h1 {
+        position: absolute;
+
+        width: 80%;
+        height: 60%;
+
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 4.3rem;
+        color: var(--second-text-color);
+        z-index: 1000;
+        text-align: center;
+        text-shadow: 55px 55px 10px rgba(0, 0, 0, 0.4);
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 778px) {
+
+    .myAssignmentsTopic-img img {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+
+        transform: scale(1.4);
+
+        opacity: 0.1;
+    }
+
+    .title {
+        position: absolute;
+        width: 100%;
+        height: 20%;
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        text-align: center;
+        align-items: center;
+    }
+
+    .title h1 {
+        position: absolute;
+
+        width: 80%;
+        height: 60%;
+
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 4.2rem;
+        color: var(--second-text-color);
+        z-index: 1000;
+        text-align: center;
+        text-shadow: 55px 55px 10px rgba(0, 0, 0, 0.4);
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 768px) {
+
+    .myAssignmentsTopic-img img {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+
+        transform: scale(1.4);
+
+        opacity: 0.1;
+    }
+
+    .title {
+        position: absolute;
+        width: 100%;
+        height: 20%;
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        text-align: center;
+        align-items: center;
+    }
+
+    .title h1 {
+        position: absolute;
+
+        width: 80%;
+        height: 60%;
+
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 4.19rem;
+        color: var(--second-text-color);
+        z-index: 1000;
+        text-align: center;
+        text-shadow: 55px 55px 10px rgba(0, 0, 0, 0.4);
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 758px) {
+
+    .myAssignmentsTopic-img img {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+
+        transform: scale(1.4);
+
+        opacity: 0.1;
+    }
+
+    .title {
+        position: absolute;
+        width: 100%;
+        height: 20%;
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        text-align: center;
+        align-items: center;
+    }
+
+    .title h1 {
+        position: absolute;
+
+        width: 80%;
+        height: 60%;
+
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 4rem;
+        color: var(--second-text-color);
+        z-index: 1000;
+        text-align: center;
+        text-shadow: 55px 55px 10px rgba(0, 0, 0, 0.4);
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 725px) {
+
+    .myAssignmentsTopic-img img {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+
+        transform: scale(1.4);
+
+        opacity: 0.1;
+    }
+
+    .title {
+        position: absolute;
+        width: 100%;
+        height: 20%;
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        text-align: center;
+        align-items: center;
+    }
+
+    .title h1 {
+        position: absolute;
+
+        width: 80%;
+        height: 60%;
+
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3.9rem;
+        color: var(--second-text-color);
+        z-index: 1000;
+        text-align: center;
+        text-shadow: 55px 55px 10px rgba(0, 0, 0, 0.4);
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 705px) {
+
+    .myAssignmentsTopic-img img {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+
+        transform: scale(1.4);
+
+        opacity: 0.1;
+    }
+
+    .title {
+        position: absolute;
+        width: 100%;
+        height: 20%;
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        text-align: center;
+        align-items: center;
+    }
+
+    .title h1 {
+        position: absolute;
+
+        width: 80%;
+        height: 60%;
+
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3.5rem;
+        color: var(--second-text-color);
+        z-index: 1000;
+        text-align: center;
+        text-shadow: 55px 55px 10px rgba(0, 0, 0, 0.4);
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 635px) {
+
+    .myAssignmentsTopic-img img {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+
+        transform: scale(1.4);
+
+        opacity: 0.1;
+    }
+
+    .title {
+        position: absolute;
+        width: 100%;
+        height: 20%;
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        text-align: center;
+        align-items: center;
+    }
+
+    .title h1 {
+        position: absolute;
+
+        width: 80%;
+        height: 60%;
+
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3.3rem;
+        color: var(--second-text-color);
+        z-index: 1000;
+        text-align: center;
+        text-shadow: 55px 55px 10px rgba(0, 0, 0, 0.4);
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 599px) {
+
+    .myAssignmentsTopic-img img {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+
+        transform: scale(1.4);
+
+        opacity: 0.1;
+    }
+
+    .title {
+        position: absolute;
+        width: 100%;
+        height: 20%;
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        text-align: center;
+        align-items: center;
+    }
+
+    .title h1 {
+        position: absolute;
+
+        width: 80%;
+        height: 60%;
+
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.8rem;
+        color: var(--second-text-color);
+        z-index: 1000;
+        text-align: center;
+        text-shadow: 55px 55px 10px rgba(0, 0, 0, 0.4);
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 533px) {
+
+    .myAssignmentsTopic-img img {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+
+        transform: scale(1.5);
+
+        opacity: 0.1;
+    }
+
+    .title {
+        position: absolute;
+        width: 100%;
+        height: 18%;
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        text-align: center;
+        align-items: center;
+    }
+
+    .title h1 {
+        position: absolute;
+
+        width: 80%;
+        height: 60%;
+
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.5rem;
+        color: var(--second-text-color);
+        z-index: 1000;
+        text-align: center;
+        text-shadow: 50px 55px 10px rgba(0, 0, 0, 0.4);
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 425px) {
+
+    .myAssignmentsTopic-img img {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+
+        transform: scale(1.5);
+
+        opacity: 0.1;
+    }
+
+    .title {
+        position: absolute;
+        width: 100%;
+        height: 16%;
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        text-align: center;
+        align-items: center;
+    }
+
+    .title h1 {
+        position: absolute;
+
+        width: 100%;
+        height: 60%;
+
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.3rem;
+        color: var(--second-text-color);
+        z-index: 1000;
+        text-align: center;
+        text-shadow: 40px 55px 10px rgba(0, 0, 0, 0.4);
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 375px) {
+
+    .myAssignmentsTopic-img img {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+
+        transform: scale(1.5);
+
+        opacity: 0.1;
+    }
+
+    .title {
+        position: absolute;
+        width: 100%;
+        height: 14%;
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        text-align: center;
+        align-items: center;
+    }
+
+    .title h1 {
+        position: absolute;
+
+        width: 100%;
+        height: 60%;
+
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+        color: var(--second-text-color);
+        z-index: 1000;
+        text-align: center;
+        text-shadow: 35px 55px 10px rgba(0, 0, 0, 0.4);
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 320px) {
+
+    .myAssignmentsTopic-img img {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+
+        transform: scale(1.5);
+
+        opacity: 0.1;
+    }
+
+    .title {
+        position: absolute;
+        width: 100%;
+        height: 12%;
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        text-align: center;
+        align-items: center;
+    }
+
+    .title h1 {
+        position: absolute;
+
+        width: 100%;
+        height: 60%;
+
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.8rem;
+        color: var(--second-text-color);
+        z-index: 1000;
+        text-align: center;
+        text-shadow: 30px 55px 10px rgba(0, 0, 0, 0.4);
+
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+}
+
+

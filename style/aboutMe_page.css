@@ -188,7 +188,7 @@
 
 .aboutMe-left-side .myCV {
     position: absolute;
-    width: 55%;
+    width: 100%;
     height: 18%;
     border-left: 4px solid var(--second-bg-color);
     /*background-color: grey;*/
@@ -513,11 +513,11 @@
 
 /* -------------------------------------------------------- */
 
-@media (max-width: 1255px) {
+@media (max-width: 1270px) {
 
     .aboutMe-left-side .myPhoto {
         position: absolute;
-        width: 65%;
+        width: 66%;
         height: 65%;
         border-radius: 100%;
         background-color: grey;
@@ -539,4 +539,762 @@
         left: 0;
         margin: auto;
     }
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 1254px) {
+
+    .aboutMe-left-side .myPhoto {
+        position: absolute;
+        width: 67%;
+        height: 65%;
+        border-radius: 100%;
+        background-color: grey;
+        box-shadow: 12px 12px 3px rgba(255, 255, 255, 0.21);
+
+        top: 7%;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-left-side .myPhoto img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.6rem;
+        color: var(--text-color);
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 span {
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.6rem;
+        color: var(--third-text-color);
+        opacity: 0.8;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 1230px) {
+
+    .aboutMe-left-side .myPhoto {
+        position: absolute;
+        width: 68%;
+        height: 65%;
+        border-radius: 100%;
+        background-color: grey;
+        box-shadow: 12px 12px 3px rgba(255, 255, 255, 0.21);
+
+        top: 7%;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-left-side .myPhoto img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.6rem;
+        color: var(--text-color);
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 span {
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.6rem;
+        color: var(--third-text-color);
+        opacity: 0.8;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 1210px) {
+
+    .aboutMe-left-side .myPhoto {
+        position: absolute;
+        width: 69%;
+        height: 65%;
+        border-radius: 100%;
+        background-color: grey;
+        box-shadow: 12px 12px 3px rgba(255, 255, 255, 0.21);
+
+        top: 7%;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-left-side .myPhoto img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.6rem;
+        color: var(--text-color);
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 span {
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.6rem;
+        color: var(--third-text-color);
+        opacity: 0.8;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 1190px) {
+
+    .aboutMe-left-side .myPhoto {
+        position: absolute;
+        width: 70%;
+        height: 65%;
+        border-radius: 100%;
+        background-color: grey;
+        box-shadow: 12px 12px 3px rgba(255, 255, 255, 0.21);
+
+        top: 7%;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-left-side .myPhoto img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.6rem;
+        color: var(--text-color);
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 span {
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.6rem;
+        color: var(--third-text-color);
+        opacity: 0.8;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 1170px) {
+
+    .aboutMe-left-side .myPhoto {
+        position: absolute;
+        width: 71%;
+        height: 65%;
+        border-radius: 100%;
+        background-color: grey;
+        box-shadow: 12px 12px 3px rgba(255, 255, 255, 0.21);
+
+        top: 7%;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-left-side .myPhoto img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.6rem;
+        color: var(--text-color);
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 span {
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.6rem;
+        color: var(--third-text-color);
+        opacity: 0.8;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 1150px) {
+
+    .aboutMe-left-side .myPhoto {
+        position: absolute;
+        width: 72%;
+        height: 65%;
+        border-radius: 100%;
+        background-color: grey;
+        box-shadow: 12px 12px 3px rgba(255, 255, 255, 0.21);
+
+        top: 7%;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-left-side .myPhoto img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.6rem;
+        color: var(--text-color);
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 span {
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.6rem;
+        color: var(--third-text-color);
+        opacity: 0.8;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 1134px) {
+
+    .aboutMe-left-side .myPhoto {
+        position: absolute;
+        width: 73%;
+        height: 65%;
+        border-radius: 100%;
+        background-color: grey;
+        box-shadow: 12px 12px 3px rgba(255, 255, 255, 0.21);
+
+        top: 7%;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-left-side .myPhoto img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.6rem;
+        color: var(--text-color);
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 span {
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.6rem;
+        color: var(--third-text-color);
+        opacity: 0.8;
+    }
+
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 1130px) {
+
+    .aboutMe-left-side .myPhoto {
+        position: absolute;
+        width: 73%;
+        height: 65%;
+        border-radius: 100%;
+        background-color: grey;
+        box-shadow: 12px 12px 3px rgba(255, 255, 255, 0.21);
+
+        top: 7%;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-left-side .myPhoto img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.6rem;
+        color: var(--text-color);
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 span {
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.6rem;
+        color: var(--third-text-color);
+        opacity: 0.8;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 1114px) {
+
+    .aboutMe-left-side .myPhoto {
+        position: absolute;
+        width: 74%;
+        height: 65%;
+        border-radius: 100%;
+        background-color: grey;
+        box-shadow: 12px 12px 3px rgba(255, 255, 255, 0.21);
+
+        top: 7%;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-left-side .myPhoto img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: var(--text-color);
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 span {
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: var(--third-text-color);
+        opacity: 0.8;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-content .first-para h5{
+        font-family: "Aref Ruqaa", serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.2rem;
+        color: #9d9d9d;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-content .first-para p{
+        font-family: "Aref Ruqaa", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.1rem;
+        margin-top: 0.5rem;
+        color: grey;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-content .second-para h5{
+        font-family: "Aref Ruqaa", serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.2rem;
+        color: #9d9d9d;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-content .second-para p{
+        font-family: "Aref Ruqaa", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.1rem;
+        margin-top: 0.5rem;
+        color: grey;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-content .third-para h5{
+        font-family: "Aref Ruqaa", serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.2rem;
+        color: #9d9d9d;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-content .third-para p{
+        font-family: "Aref Ruqaa", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.1rem;
+        margin-top: 0.5rem;
+        color: grey;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 1094px) {
+
+    .aboutMe-left-side .myPhoto {
+        position: absolute;
+        width: 75%;
+        height: 65%;
+        border-radius: 100%;
+        background-color: grey;
+        box-shadow: 12px 12px 3px rgba(255, 255, 255, 0.21);
+
+        top: 7%;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-left-side .myPhoto img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: var(--text-color);
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 span {
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: var(--third-text-color);
+        opacity: 0.8;
+    }
+
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 1057px) {
+
+    .aboutMe-left-side .myPhoto {
+        position: absolute;
+        width: 77%;
+        height: 65%;
+        border-radius: 100%;
+        background-color: grey;
+        box-shadow: 12px 12px 3px rgba(255, 255, 255, 0.21);
+
+        top: 7%;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-left-side .myPhoto img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: var(--text-color);
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 span {
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: var(--third-text-color);
+        opacity: 0.8;
+    }
+
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 1045px) {
+
+    .aboutMe-left-side .myPhoto {
+        position: absolute;
+        width: 77%;
+        height: 65%;
+        border-radius: 100%;
+        background-color: grey;
+        box-shadow: 12px 12px 3px rgba(255, 255, 255, 0.21);
+
+        top: 7%;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-left-side .myPhoto img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.4rem;
+        color: var(--text-color);
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 span {
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: var(--third-text-color);
+        opacity: 0.8;
+    }
+
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 1015px) {
+
+    .aboutMe-left-side .myPhoto {
+        position: absolute;
+        width: 77%;
+        height: 65%;
+        border-radius: 100%;
+        background-color: grey;
+        box-shadow: 12px 12px 3px rgba(255, 255, 255, 0.21);
+
+        top: 7%;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-left-side .myPhoto img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.4rem;
+        color: var(--text-color);
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 span {
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: var(--third-text-color);
+        opacity: 0.8;
+    }
+
 }

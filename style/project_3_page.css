@@ -85,34 +85,46 @@
 .project-3-section .project-3-section-left-side .project-3-section-left-side-content h1 {
     position: absolute;
     top: 5%;
-    font-family: "Kumar One", serif;
-    font-weight: 400;
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
     font-style: normal;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     color: #000000;
     z-index: 9000;
 }
 
 .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details {
     position: absolute;
-    top: 22%;
+    top: 24%;
     z-index: 1000;
-    height: 12%;
+    height: 14%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h2 {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.9rem;
     color: var(--text-color);
     text-shadow: 4px 6px 2px rgba(255, 255, 255, 0.25);
 }
 
 .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h4 {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
     color: var(--second-text-color);
 }
 
 .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h6 {
+    font-family: "Athiti", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
     color: #818181;
 }
 
@@ -120,6 +132,10 @@
     position: absolute;
     top: 45%;
     z-index: 1000;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
     color: white;
 }
 
@@ -558,7 +574,7 @@
         height: 50%;
         top: 0;
         background-color: var(--second-bg-color);
-        opacity: 0.6;
+        opacity: 0.7;
     }
 
     .project-3-section .project-3-section-left-side {
@@ -583,41 +599,57 @@
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content h1 {
         position: absolute;
         top: 8%;
-        font-family: "Kumar One", serif;
-        font-weight: 400;
+        font-family: "Abril Fatface", serif;
+        font-weight: 500;
         font-style: normal;
-        font-size: 1.8rem;
+        font-size: 2rem;
         color: #000000;
         z-index: 9000;
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details {
         position: absolute;
-        top: 37%;
+        top: 40%;
         z-index: 1000;
-        height: 23%;
+        height: 27%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h2 {
+        font-family: "Abril Fatface", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.7rem;
         color: var(--text-color);
         text-shadow: 4px 6px 2px rgba(255, 255, 255, 0.25);
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h4 {
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.4rem;
         color: var(--second-text-color);
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h6 {
-        color: #818181;
+        font-family: "Athiti", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1rem;
+        color: #545454;
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content a {
         position: absolute;
         top: 80%;
         z-index: 1000;
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
         color: white;
     }
 
@@ -706,7 +738,7 @@
         height: 50%;
         top: 0;
         background-color: var(--second-bg-color);
-        opacity: 0.6;
+        opacity: 0.7;
     }
 
     .project-3-section .project-3-section-left-side {
@@ -731,41 +763,57 @@
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content h1 {
         position: absolute;
         top: 8%;
-        font-family: "Kumar One", serif;
-        font-weight: 400;
+        font-family: "Abril Fatface", serif;
+        font-weight: 500;
         font-style: normal;
-        font-size: 1.8rem;
+        font-size: 2rem;
         color: #000000;
         z-index: 9000;
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details {
         position: absolute;
-        top: 37%;
+        top: 40%;
         z-index: 1000;
-        height: 23%;
+        height: 27%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h2 {
+        font-family: "Abril Fatface", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.7rem;
         color: var(--text-color);
         text-shadow: 4px 6px 2px rgba(255, 255, 255, 0.25);
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h4 {
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.4rem;
         color: var(--second-text-color);
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h6 {
-        color: #818181;
+        font-family: "Athiti", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1rem;
+        color: #545454;
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content a {
         position: absolute;
         top: 80%;
         z-index: 1000;
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
         color: white;
     }
 
@@ -854,7 +902,7 @@
         height: 50%;
         top: 0;
         background-color: var(--second-bg-color);
-        opacity: 0.6;
+        opacity: 0.7;
     }
 
     .project-3-section .project-3-section-left-side {
@@ -879,41 +927,57 @@
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content h1 {
         position: absolute;
         top: 8%;
-        font-family: "Kumar One", serif;
-        font-weight: 400;
+        font-family: "Abril Fatface", serif;
+        font-weight: 500;
         font-style: normal;
-        font-size: 1.8rem;
+        font-size: 2rem;
         color: #000000;
         z-index: 9000;
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details {
         position: absolute;
-        top: 37%;
+        top: 40%;
         z-index: 1000;
-        height: 23%;
+        height: 27%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h2 {
+        font-family: "Abril Fatface", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.7rem;
         color: var(--text-color);
         text-shadow: 4px 6px 2px rgba(255, 255, 255, 0.25);
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h4 {
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.4rem;
         color: var(--second-text-color);
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h6 {
-        color: #818181;
+        font-family: "Athiti", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1rem;
+        color: #545454;
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content a {
         position: absolute;
         top: 80%;
         z-index: 1000;
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
         color: white;
     }
 
@@ -1002,7 +1066,7 @@
         height: 50%;
         top: 0;
         background-color: var(--second-bg-color);
-        opacity: 0.6;
+        opacity: 0.7;
     }
 
     .project-3-section .project-3-section-left-side {
@@ -1027,41 +1091,57 @@
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content h1 {
         position: absolute;
         top: 8%;
-        font-family: "Kumar One", serif;
-        font-weight: 400;
+        font-family: "Abril Fatface", serif;
+        font-weight: 500;
         font-style: normal;
-        font-size: 1.8rem;
+        font-size: 2rem;
         color: #000000;
         z-index: 9000;
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details {
         position: absolute;
-        top: 37%;
+        top: 40%;
         z-index: 1000;
-        height: 23%;
+        height: 27%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h2 {
+        font-family: "Abril Fatface", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.7rem;
         color: var(--text-color);
         text-shadow: 4px 6px 2px rgba(255, 255, 255, 0.25);
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h4 {
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.4rem;
         color: var(--second-text-color);
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h6 {
-        color: #818181;
+        font-family: "Athiti", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1rem;
+        color: #545454;
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content a {
         position: absolute;
         top: 80%;
         z-index: 1000;
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
         color: white;
     }
 
@@ -1150,7 +1230,7 @@
         height: 50%;
         top: 0;
         background-color: var(--second-bg-color);
-        opacity: 0.6;
+        opacity: 0.7;
     }
 
     .project-3-section .project-3-section-left-side {
@@ -1175,41 +1255,57 @@
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content h1 {
         position: absolute;
         top: 8%;
-        font-family: "Kumar One", serif;
-        font-weight: 400;
+        font-family: "Abril Fatface", serif;
+        font-weight: 500;
         font-style: normal;
-        font-size: 1.8rem;
+        font-size: 2rem;
         color: #000000;
         z-index: 9000;
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details {
         position: absolute;
-        top: 37%;
+        top: 40%;
         z-index: 1000;
-        height: 23%;
+        height: 27%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h2 {
+        font-family: "Abril Fatface", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.7rem;
         color: var(--text-color);
         text-shadow: 4px 6px 2px rgba(255, 255, 255, 0.25);
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h4 {
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.4rem;
         color: var(--second-text-color);
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h6 {
-        color: #818181;
+        font-family: "Athiti", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1rem;
+        color: #545454;
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content a {
         position: absolute;
         top: 80%;
         z-index: 1000;
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
         color: white;
     }
 
@@ -1298,7 +1394,7 @@
         height: 50%;
         top: 0;
         background-color: var(--second-bg-color);
-        opacity: 0.6;
+        opacity: 0.7;
     }
 
     .project-3-section .project-3-section-left-side {
@@ -1323,41 +1419,57 @@
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content h1 {
         position: absolute;
         top: 8%;
-        font-family: "Kumar One", serif;
-        font-weight: 400;
+        font-family: "Abril Fatface", serif;
+        font-weight: 500;
         font-style: normal;
-        font-size: 1.8rem;
+        font-size: 2rem;
         color: #000000;
         z-index: 9000;
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details {
         position: absolute;
-        top: 37%;
+        top: 40%;
         z-index: 1000;
-        height: 23%;
+        height: 27%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h2 {
+        font-family: "Abril Fatface", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.7rem;
         color: var(--text-color);
         text-shadow: 4px 6px 2px rgba(255, 255, 255, 0.25);
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h4 {
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.4rem;
         color: var(--second-text-color);
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h6 {
-        color: #818181;
+        font-family: "Athiti", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1rem;
+        color: #545454;
     }
 
     .project-3-section .project-3-section-left-side .project-3-section-left-side-content a {
         position: absolute;
         top: 80%;
         z-index: 1000;
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
         color: white;
     }
 

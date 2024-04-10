@@ -2997,7 +2997,7 @@
         height: 60%;
         /*background-color: white;*/
 
-        top: 25%;
+        top: 27%;
         left: 0;
         right: 0;
         margin: auto;
@@ -3007,7 +3007,7 @@
     .aboutMe-right-side .aboutMe-right-side-top h3 {
         position: absolute;
         width: 100%;
-        height: 50%;
+        height: 58%;
         top: 0;
         bottom: 0;
         margin: auto;
@@ -3024,7 +3024,8 @@
 
     .aboutMe-right-side .aboutMe-right-side-top h3 img{
         margin-left: 70%;
-
+        width: 3rem;
+        height: 3rem;
     }
 
     .aboutMe-right-side .aboutMe-right-side-top h3 span {
@@ -3135,6 +3136,8 @@
         position: absolute;
         bottom: 0;
         margin-left: 0.5rem;
+        width: 2rem;
+        height: 2rem;
     }
 
     .aboutMe-right-side .border-1 {
@@ -3169,7 +3172,7 @@
         opacity: 0.7;
         box-shadow: 10px 10px 3px rgba(185, 146, 146, 0.47);
 
-        bottom: 8%;
+        bottom: 7%;
         right: 22%;
     }
 
@@ -3181,7 +3184,7 @@
         opacity: 0.7;
         box-shadow: 10px 10px 3px rgba(185, 146, 146, 0.47);
 
-        bottom: 8%;
+        bottom: 7%;
         right: 22%;
     }
 }
@@ -3215,7 +3218,7 @@
         background-color: grey;
         box-shadow: 8px 8px 3px rgba(255, 255, 255, 0.21);
 
-        bottom: 43%;
+        bottom: 45%;
         right: 53%;
 
     }
@@ -3361,8 +3364,8 @@
         /*background-color: grey;*/
         opacity: 0.7;
 
-        top: 40%;
-        left: 50%;
+        top: 55%;
+        left: 45%;
     }
 
     .aboutMe-left-side .myCV p{
@@ -3371,7 +3374,7 @@
         font-style: normal;
         font-size: 0.8rem;
         color: var(--text-color);
-        margin-left: 1rem;
+        margin-left: 0.7rem;
     }
 
     .aboutMe-left-side .myCV p:nth-child(2){
@@ -3444,7 +3447,7 @@
 
 /* -------------------------------------------------------- */
 
-@media (max-width: 425px) {
+@media (max-width: 375px) {
 
     .aboutMe-left-side {
         position: absolute;
@@ -3465,11 +3468,269 @@
 
     .aboutMe-left-side .myPhoto {
         position: absolute;
-        width: 38%;
+        width: 40%;
+        height: 78%;
+        border-radius: 100%;
+        background-color: grey;
+        box-shadow: 7px 7px 3px rgba(255, 255, 255, 0.21);
+
+        bottom: 80%;
+        right: 40%;
+
+    }
+
+    .aboutMe-left-side .myPhoto img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top {
+        position: absolute;
+        width: 45%;
+        height: 12%;
+        /*background-color: grey;*/
+
+        top: 11%;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-content {
+        position: absolute;
+        width: 45%;
+        height: 50%;
+        /*background-color: white;*/
+
+        top: 25%;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 {
+        position: absolute;
+        width: 100%;
+        height: 60%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.9rem;
+        color: var(--text-color);
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 img{
+        margin-left: 95%;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-top h3 span {
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+        color: var(--third-text-color);
+        opacity: 0.8;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-content .first-para {
+        position: relative;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-content .first-para h5{
+        font-family: "Aref Ruqaa", serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 0.8rem;
+        color: #9d9d9d;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-content .first-para p{
+        font-family: "Aref Ruqaa", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.6rem;
+        margin-top: 0.3rem;
+        /*margin-bottom: 0.2rem;*/
+        color: grey;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-content .second-para h5{
+        font-family: "Aref Ruqaa", serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 0.8rem;
+        color: #9d9d9d;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-content .second-para p{
+        font-family: "Aref Ruqaa", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.6rem;
+        margin-top: 0.3rem;
+        /*margin-bottom: 0.2rem;*/
+        color: grey;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-content .third-para h5{
+        font-family: "Aref Ruqaa", serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 0.8rem;
+        color: #9d9d9d;
+    }
+
+    .aboutMe-right-side .aboutMe-right-side-content .third-para p{
+        font-family: "Aref Ruqaa", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.6rem;
+        margin-top: 0.3rem;
+        color: grey;
+    }
+
+    .aboutMe-left-side .myCV {
+        position: absolute;
+        width: 50%;
+        height: 40%;
+        border-left: 4px solid var(--second-bg-color);
+        /*background-color: grey;*/
+        opacity: 0.7;
+
+        top: 45%;
+        left: 50%;
+    }
+
+    .aboutMe-left-side .myCV p{
+        font-family: "Tapestry", serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: 0.7rem;
+        color: var(--text-color);
+        margin-left: 0.5rem;
+    }
+
+    .aboutMe-left-side .myCV p:nth-child(2){
+        position: relative;
+        top: 25%;
+        margin-top: 1.2rem;
+    }
+
+    .aboutMe-left-side .myCV p:nth-child(1){
+        position: relative;
+        top: 25%;
+    }
+
+    .aboutMe-left-side .myCV p:nth-child(1) img{
+        position: absolute;
+        width: 1.5rem;
+        height: 1.5rem;
+        bottom: 0;
+        margin-left: 0.5rem;
+    }
+
+    .aboutMe-right-side .border-1 {
+        position: absolute;
+        width: 22%;
+        height: 1%;
+        background-color: var(--second-bg-color);
+        opacity: 0.7;
+        box-shadow: 10px 10px 3px rgba(185, 146, 146, 0.47);
+
+        top: 5%;
+        left: 15%;
+    }
+
+    .aboutMe-right-side .border-2 {
+        position: absolute;
+        width: 1.3%;
+        height: 15%;
+        background-color: var(--second-bg-color);
+        opacity: 0.7;
+        box-shadow: 10px 10px 3px rgba(185, 146, 146, 0.47);
+
+        top: 5%;
+        left: 15%;
+    }
+
+    .aboutMe-right-side .border-3 {
+        position: absolute;
+        width: 22%;
+        height: 1%;
+        background-color: var(--second-bg-color);
+        opacity: 0.7;
+        box-shadow: 10px 10px 3px rgba(185, 146, 146, 0.47);
+
+        bottom: 20%;
+        right: 18%;
+    }
+
+    .aboutMe-right-side .border-4 {
+        position: absolute;
+        width: 1.3%;
+        height: 15%;
+        background-color: var(--second-bg-color);
+        opacity: 0.7;
+        box-shadow: 10px 10px 3px rgba(185, 146, 146, 0.47);
+
+        bottom: 20%;
+        right: 18%;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 320px) {
+
+    .aboutMe-left-side {
+        position: absolute;
+        width: 100%;
+        height: 30%;
+
+        bottom: 0;
+    }
+
+    .aboutMe-right-side {
+        position: absolute;
+        width: 100%;
+        height: 70%;
+        /*background-color: burlywood;*/
+
+        top: 0;
+    }
+
+    .aboutMe-left-side .myPhoto {
+        position: absolute;
+        width: 33%;
         height: 85%;
         border-radius: 100%;
         background-color: grey;
-        box-shadow: 8px 8px 3px rgba(255, 255, 255, 0.21);
+        box-shadow: 7px 7px 3px rgba(255, 255, 255, 0.21);
 
         bottom: 43%;
         right: 53%;
@@ -3493,7 +3754,7 @@
         height: 15%;
         /*background-color: grey;*/
 
-        top: 11%;
+        top: 9%;
         left: 0;
         right: 0;
         margin: auto;
@@ -3516,7 +3777,7 @@
     .aboutMe-right-side .aboutMe-right-side-top h3 {
         position: absolute;
         width: 100%;
-        height: 50%;
+        height: 60%;
         top: 0;
         bottom: 0;
         margin: auto;
@@ -3524,7 +3785,7 @@
         font-family: "Kumar One", serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 1rem;
+        font-size: 0.9rem;
         color: var(--text-color);
 
         display: flex;
@@ -3532,9 +3793,9 @@
     }
 
     .aboutMe-right-side .aboutMe-right-side-top h3 img{
-        margin-left: 85%;
-        width: 3rem;
-        height: 3rem;
+        margin-left: 95%;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     .aboutMe-right-side .aboutMe-right-side-top h3 span {
@@ -3562,7 +3823,7 @@
         font-family: "Aref Ruqaa", serif;
         font-weight: 700;
         font-style: normal;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         color: #9d9d9d;
     }
 
@@ -3570,8 +3831,9 @@
         font-family: "Aref Ruqaa", serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 0.8rem;
-        margin-top: 0.5rem;
+        font-size: 0.6rem;
+        margin-top: 0.3rem;
+        /*margin-bottom: 0.2rem;*/
         color: grey;
     }
 
@@ -3579,7 +3841,7 @@
         font-family: "Aref Ruqaa", serif;
         font-weight: 700;
         font-style: normal;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         color: #9d9d9d;
     }
 
@@ -3587,8 +3849,9 @@
         font-family: "Aref Ruqaa", serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 0.8rem;
-        margin-top: 0.5rem;
+        font-size: 0.6rem;
+        margin-top: 0.3rem;
+        /*margin-bottom: 0.2rem;*/
         color: grey;
     }
 
@@ -3596,7 +3859,7 @@
         font-family: "Aref Ruqaa", serif;
         font-weight: 700;
         font-style: normal;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         color: #9d9d9d;
     }
 
@@ -3604,15 +3867,15 @@
         font-family: "Aref Ruqaa", serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 0.8rem;
-        margin-top: 0.5rem;
+        font-size: 0.6rem;
+        margin-top: 0.3rem;
         color: grey;
     }
 
     .aboutMe-left-side .myCV {
         position: absolute;
         width: 50%;
-        height: 35%;
+        height: 45%;
         border-left: 4px solid var(--second-bg-color);
         /*background-color: grey;*/
         opacity: 0.7;
@@ -3625,9 +3888,9 @@
         font-family: "Tapestry", serif;
         font-weight: 200;
         font-style: normal;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         color: var(--text-color);
-        margin-left: 1rem;
+        margin-left: 0.5rem;
     }
 
     .aboutMe-left-side .myCV p:nth-child(2){
@@ -3643,8 +3906,8 @@
 
     .aboutMe-left-side .myCV p:nth-child(1) img{
         position: absolute;
-        width: 2rem;
-        height: 2rem;
+        width: 1.5rem;
+        height: 1.5rem;
         bottom: 0;
         margin-left: 0.5rem;
     }
@@ -3657,7 +3920,7 @@
         opacity: 0.7;
         box-shadow: 10px 10px 3px rgba(185, 146, 146, 0.47);
 
-        top: 7%;
+        top: 4%;
         left: 20%;
     }
 
@@ -3669,7 +3932,7 @@
         opacity: 0.7;
         box-shadow: 10px 10px 3px rgba(185, 146, 146, 0.47);
 
-        top: 7%;
+        top: 4%;
         left: 20%;
     }
 
@@ -3681,8 +3944,8 @@
         opacity: 0.7;
         box-shadow: 10px 10px 3px rgba(185, 146, 146, 0.47);
 
-        bottom: 8%;
-        right: 22%;
+        bottom: 9%;
+        right: 20%;
     }
 
     .aboutMe-right-side .border-4 {
@@ -3693,8 +3956,8 @@
         opacity: 0.7;
         box-shadow: 10px 10px 3px rgba(185, 146, 146, 0.47);
 
-        bottom: 8%;
-        right: 22%;
+        bottom: 9%;
+        right: 20%;
     }
 }
 

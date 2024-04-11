@@ -36,7 +36,7 @@
     top: 45%;
     left: 15%;
 
-    opacity: 0.18;
+    opacity: 0.1;
 }
 
 .contactMe-section .contactMe-section-title {
@@ -57,5 +57,65 @@
     font-style: normal;
     font-size: 2.5rem;
     color: var(--text-color);
+    z-index: 9000;
+}
+
+.contactMe-section .contactMe-section-left-side {
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    left: 0;
+    /*background-color: cadetblue;*/
+}
+
+.contactMe-section .contactMe-section-right-side {
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    right: 0;
+    background-color: burlywood;
+}
+
+.contactMe-section .contactMe-section-left-side .contactMe-section-left-side-content {
+    position: absolute;
+    width: 70%;
+    height: 30%;
+    /*background-color: #9d9d9d;*/
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.contactMe-section .contactMe-section-left-side .contactMe-section-left-side-content h2 {
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.8rem;
+    color: var(--second-text-color);
+    z-index: 9000;
+}
+
+.contactMe-section .contactMe-section-left-side .contactMe-section-left-side-content p {
+    font-family: "Asar", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    color: var(--second-text-color);
+    z-index: 9000;
+}
+
+.contactMe-section .contactMe-section-left-side .contactMe-section-left-side-content h3 {
+    font-family: "Kumar One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    color: #653D3D;
     z-index: 9000;
 }

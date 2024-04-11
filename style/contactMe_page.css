@@ -26,3 +26,36 @@
 
     background-color: var(--second-bg-color);
 }
+
+.contactMe-section img {
+    position: absolute;
+    width: 30%;
+    height: 70%;
+    transform: scale(4.8);
+
+    top: 45%;
+    left: 15%;
+
+    opacity: 0.18;
+}
+
+.contactMe-section .contactMe-section-title {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    /*background-color: burlywood;*/
+    top: 3%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.contactMe-section .contactMe-section-title h1 {
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.5rem;
+    color: var(--text-color);
+    z-index: 9000;
+}

@@ -73,7 +73,7 @@
     width: 55%;
     height: 100%;
     right: 0;
-    background-color: burlywood;
+    /*background-color: burlywood;*/
 }
 
 .contactMe-section .contactMe-section-left-side .contactMe-section-left-side-content {
@@ -118,4 +118,69 @@
     font-size: 1.2rem;
     color: #653D3D;
     z-index: 9000;
+}
+
+.contactMe-section .contactMe-section-right-side .contactMe-section-form-before {
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    right: 0;
+    background-color: var(--bg-color);
+    opacity: 0.3;
+
+
+    bottom: 7%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.contactMe-section .contactMe-section-right-side form {
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    right: 0;
+    border: 2px solid black;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+
+    bottom: 7%;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.contactMe-section .contactMe-section-right-side form .form-firstNameLastName {
+    /*position: absolute;*/
+    /*top: 5%;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactMe-section .contactMe-section-right-side form .form-firstNameLastName .form-firstName {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+
+.contactMe-section .contactMe-section-right-side form .form-firstNameLastName .form-lastName {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactMe-section .contactMe-section-right-side form .form-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactMe-section .contactMe-section-right-side form .form-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

@@ -136,7 +136,9 @@
     font-weight: 400;
     font-style: normal;
     font-size: 1rem;
-    color: white;
+    color: var(--text-color);
+    border-bottom: 1px solid var(--text-color);
+    opacity: 0.8;
 }
 
 .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-photos {

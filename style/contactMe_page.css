@@ -36,7 +36,7 @@
     top: 45%;
     left: 15%;
 
-    opacity: 0.1;
+    opacity: 0.13;
 }
 
 .contactMe-section .contactMe-section-title {
@@ -83,8 +83,7 @@
     /*background-color: #9d9d9d;*/
     top: 0;
     bottom: 0;
-    right: 0;
-    left: 0;
+    left: 20%;
     margin: auto;
 
     display: flex;
@@ -123,10 +122,10 @@
 .contactMe-section .contactMe-section-right-side .contactMe-section-form-before {
     position: absolute;
     width: 70%;
-    height: 70%;
+    height: 74%;
     right: 0;
     background-color: var(--bg-color);
-    opacity: 0.3;
+    opacity: 0.2;
 
 
     bottom: 7%;
@@ -138,7 +137,7 @@
 .contactMe-section .contactMe-section-right-side form {
     position: absolute;
     width: 70%;
-    height: 70%;
+    height: 74%;
     right: 0;
     border: 2px solid black;
     box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
@@ -158,7 +157,7 @@
 .contactMe-section .contactMe-section-right-side form .form-firstNameLastName {
     position: absolute;
     width: 100%;
-    height: 10%;
+    height: 12%;
     top: 5%;
     left: 0;
     right: 0;
@@ -180,9 +179,9 @@
 
 .contactMe-section .contactMe-section-right-side form .form-email {
     position: absolute;
-    width: 80%;
-    height: 10%;
-    top: 20%;
+    width: 79%;
+    height: 12%;
+    top: 22%;
     left: 0;
     right: 0;
     margin: auto;
@@ -194,8 +193,8 @@
 
 .contactMe-section .contactMe-section-right-side form .form-message {
     position: absolute;
-    width: 80%;
-    top: 35%;
+    width: 79%;
+    top: 41%;
     left: 0;
     right: 0;
     margin: auto;
@@ -208,15 +207,66 @@
     position: absolute;
     width: 25%;
     height: 7%;
-    bottom: 10%;
+    bottom: 5%;
     left: 0;
     right: 0;
     margin: auto;
     text-align: center;
+    /*background-color: black;*/
+    /*box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);*/
+}
+
+.contactMe-section .contactMe-section-right-side form .form-button button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.8rem;
+    color: var(--text-color);
     background-color: black;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.contactMe-section .contactMe-section-right-side form .form-button button {
+.contactMe-section .contactMe-section-right-side form label {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
 
+.contactMe-section .contactMe-section-right-side form input {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.25);
+    opacity: 0.6;
+}
+
+.contactMe-section .contactMe-section-right-side form textarea {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.25);
+    opacity: 0.6;
+}
+
+.contactMe-section .contactMe-section-right-side form #firstname {
+    height: 1.5rem;
+}
+
+.contactMe-section .contactMe-section-right-side form #lastname {
+    height: 1.5rem;
+}
+
+.contactMe-section .contactMe-section-right-side form #email {
+    height: 1.8rem;
 }

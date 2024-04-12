@@ -147,6 +147,7 @@
     right: 0;
     left: 0;
     margin: auto;
+    padding-left: 6rem;
 
     display: flex;
     flex-direction: column;
@@ -155,8 +156,6 @@
 }
 
 .contactMe-section .contactMe-section-right-side form .form-firstNameLastName {
-    /*position: absolute;*/
-    /*top: 5%;*/
     display: flex;
     justify-content: space-between;
     align-items: center;

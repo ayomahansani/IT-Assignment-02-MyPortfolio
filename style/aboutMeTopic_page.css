@@ -36,10 +36,12 @@
 
 .aboutMeTopic-img img {
     position: absolute;
-    width: 100vw;
-    height: 100vh;
+    width: 70%;
+    height: 100%;
 
-    transform: scale(1.5);
+    top: 15%;
+    left: 10%;
+    transform: scale(2);
 
     opacity: 0.3;
 }

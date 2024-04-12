@@ -394,3 +394,292 @@
         text-align: left;
     }
 }
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 1056px) {
+
+    .contactMe-section img {
+        position: absolute;
+        width: 30%;
+        height: 54%;
+        transform: scale(4.8);
+
+        top: 45%;
+        left: 15%;
+
+        opacity: 0.13;
+    }
+
+    .contactMe-section .contactMe-section-right-side form .form-firstNameLastName {
+        position: absolute;
+        width: 82%;
+        height: 12%;
+        top: 5%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contactMe-section .contactMe-section-left-side .contactMe-section-left-side-content {
+        position: absolute;
+        width: 76%;
+        height: 30%;
+        /*background-color: #9d9d9d;*/
+        top: 0;
+        bottom: 0;
+        left: 20%;
+        margin: auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: left;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 1040px) {
+
+    .contactMe-section img {
+        position: absolute;
+        width: 30%;
+        height: 50%;
+        transform: scale(4.8);
+
+        top: 45%;
+        left: 15%;
+
+        opacity: 0.13;
+    }
+
+    .contactMe-section .contactMe-section-right-side .contactMe-section-form-before {
+        position: absolute;
+        width: 75%;
+        height: 74%;
+        right: 0;
+        background-color: var(--bg-color);
+        opacity: 0.2;
+
+
+        bottom: 7%;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .contactMe-section .contactMe-section-right-side form {
+        position: absolute;
+        width: 75%;
+        height: 74%;
+        right: 0;
+        border: 2px solid black;
+        box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+
+        bottom: 7%;
+        right: 0;
+        left: 0;
+        margin: auto;
+        /*padding-left: 6rem;*/
+
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*justify-content: space-around;*/
+        /*align-items: start;*/
+    }
+
+    .contactMe-section .contactMe-section-right-side form .form-firstNameLastName {
+        position: absolute;
+        width: 82%;
+        height: 12%;
+        top: 5%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contactMe-section .contactMe-section-left-side .contactMe-section-left-side-content {
+        position: absolute;
+        width: 78%;
+        height: 30%;
+        /*background-color: #9d9d9d;*/
+        top: 0;
+        bottom: 0;
+        left: 20%;
+        margin: auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: left;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 978px) {
+
+    .contactMe-section img {
+        position: absolute;
+        width: 30%;
+        height: 48%;
+        transform: scale(4.8);
+
+        top: 45%;
+        left: 15%;
+
+        opacity: 0.13;
+    }
+
+    .contactMe-section .contactMe-section-right-side .contactMe-section-form-before {
+        position: absolute;
+        width: 85%;
+        height: 74%;
+        right: 0;
+        background-color: var(--bg-color);
+        opacity: 0.2;
+
+
+        bottom: 7%;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .contactMe-section .contactMe-section-right-side form {
+        position: absolute;
+        width: 85%;
+        height: 74%;
+        right: 0;
+        border: 2px solid black;
+        box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+
+        bottom: 7%;
+        right: 0;
+        left: 0;
+        margin: auto;
+        /*padding-left: 6rem;*/
+
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*justify-content: space-around;*/
+        /*align-items: start;*/
+    }
+
+    .contactMe-section .contactMe-section-right-side form .form-firstNameLastName {
+        position: absolute;
+        width: 82%;
+        height: 12%;
+        top: 5%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contactMe-section .contactMe-section-left-side .contactMe-section-left-side-content {
+        position: absolute;
+        width: 78%;
+        height: 30%;
+        /*background-color: #9d9d9d;*/
+        top: 0;
+        bottom: 0;
+        left: 20%;
+        margin: auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: left;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 855px) {
+
+    .contactMe-section img {
+        position: absolute;
+        width: 30%;
+        height: 43%;
+        transform: scale(4.8);
+
+        top: 45%;
+        left: 15%;
+
+        opacity: 0.13;
+    }
+
+    .contactMe-section .contactMe-section-right-side .contactMe-section-form-before {
+        position: absolute;
+        width: 95%;
+        height: 74%;
+        right: 0;
+        background-color: var(--bg-color);
+        opacity: 0.2;
+
+
+        bottom: 7%;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .contactMe-section .contactMe-section-right-side form {
+        position: absolute;
+        width: 95%;
+        height: 74%;
+        right: 0;
+        border: 2px solid black;
+        box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+
+        bottom: 7%;
+        right: 0;
+        left: 0;
+        margin: auto;
+        /*padding-left: 6rem;*/
+
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*justify-content: space-around;*/
+        /*align-items: start;*/
+    }
+
+    .contactMe-section .contactMe-section-right-side form .form-firstNameLastName {
+        position: absolute;
+        width: 82%;
+        height: 12%;
+        top: 5%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contactMe-section .contactMe-section-left-side .contactMe-section-left-side-content {
+        position: absolute;
+        width: 85%;
+        height: 30%;
+        /*background-color: #9d9d9d;*/
+        top: 0;
+        bottom: 0;
+        left: 10%;
+        margin: auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: left;
+    }
+}

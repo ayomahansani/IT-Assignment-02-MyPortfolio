@@ -44,7 +44,7 @@
     width: 100%;
     height: 10%;
     /*background-color: burlywood;*/
-    top: 3%;
+    top: 2%;
     left: 0;
     right: 0;
     margin: auto;
@@ -269,4 +269,128 @@
 
 .contactMe-section .contactMe-section-right-side form #email {
     height: 1.8rem;
+}
+
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 1400px) {
+    .contactMe-section .contactMe-section-right-side form .form-firstNameLastName {
+        position: absolute;
+        width: 99%;
+        height: 12%;
+        top: 5%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 1300px) {
+
+    .contactMe-section img {
+        position: absolute;
+        width: 30%;
+        height: 65%;
+        transform: scale(4.8);
+
+        top: 45%;
+        left: 15%;
+
+        opacity: 0.13;
+    }
+
+    .contactMe-section .contactMe-section-right-side form .form-firstNameLastName {
+        position: absolute;
+        width: 96%;
+        height: 12%;
+        top: 5%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 1200px) {
+
+    .contactMe-section img {
+        position: absolute;
+        width: 30%;
+        height: 60%;
+        transform: scale(4.8);
+
+        top: 45%;
+        left: 15%;
+
+        opacity: 0.13;
+    }
+
+    .contactMe-section .contactMe-section-right-side form .form-firstNameLastName {
+        position: absolute;
+        width: 90%;
+        height: 12%;
+        top: 5%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 1132px) {
+
+    .contactMe-section img {
+        position: absolute;
+        width: 30%;
+        height: 57%;
+        transform: scale(4.8);
+
+        top: 45%;
+        left: 15%;
+
+        opacity: 0.13;
+    }
+
+    .contactMe-section .contactMe-section-right-side form .form-firstNameLastName {
+        position: absolute;
+        width: 84%;
+        height: 12%;
+        top: 5%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contactMe-section .contactMe-section-left-side .contactMe-section-left-side-content {
+        position: absolute;
+        width: 75%;
+        height: 30%;
+        /*background-color: #9d9d9d;*/
+        top: 0;
+        bottom: 0;
+        left: 20%;
+        margin: auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: left;
+    }
 }

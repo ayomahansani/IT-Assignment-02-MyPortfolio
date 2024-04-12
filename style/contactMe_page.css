@@ -1806,7 +1806,7 @@
         width: 90%;
         height: 35%;
         /*background-color: #9d9d9d;*/
-        bottom: 5%;
+        bottom: 1%;
         left: 10%;
 
         display: flex;
@@ -1845,8 +1845,8 @@
     .contactMe-section img {
         position: absolute;
         width: 30%;
-        height: 25%;
-        transform: scale(6);
+        height: 15%;
+        transform: scale(8.5);
 
         top: 50%;
         left: 13%;
@@ -1857,22 +1857,22 @@
     .contactMe-section .contactMe-section-right-side .contactMe-section-form-before {
         position: absolute;
         width: 70%;
-        height: 67%;
+        height: 60%;
         background-color: var(--bg-color);
         opacity: 0.2;
 
-        bottom: 1%;
+        bottom: 3%;
         left: 0;
     }
 
     .contactMe-section .contactMe-section-right-side form {
         position: absolute;
         width: 70%;
-        height: 67%;
+        height: 60%;
         border: 2px solid black;
         box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.25);
 
-        bottom: 1%;
+        bottom: 3%;
         left: 0;
     }
 
@@ -1917,9 +1917,9 @@
 
     .contactMe-section .contactMe-section-right-side form .form-button {
         position: absolute;
-        width: 25%;
+        width: 27%;
         height: 7%;
-        bottom: 3%;
+        bottom: 5%;
         left: 0;
         right: 0;
         margin: auto;
@@ -1973,12 +1973,464 @@
 
     .contactMe-section .contactMe-section-right-side form #firstname {
         height: 1.5rem;
-        width: 6.5rem;
+        width: 6.8rem;
     }
 
     .contactMe-section .contactMe-section-right-side form #lastname {
         height: 1.5rem;
-        width: 6.5rem;
+        width: 6.8rem;
+    }
+
+    .contactMe-section .contactMe-section-right-side form #email {
+        height: 1.7rem;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 375px) {
+
+    .contactMe-section .contactMe-section-title {
+        position: absolute;
+        width: 100%;
+        height: 10%;
+        /*background-color: burlywood;*/
+        top: 1%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+    }
+
+    .contactMe-section .contactMe-section-title h1 {
+        font-family: "Abril Fatface", serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.8rem;
+        color: var(--text-color);
+        z-index: 9000;
+    }
+
+    .contactMe-section .contactMe-section-left-side {
+        position: absolute;
+        width: 70%;
+        height: 46%;
+        top: 0;
+        /*background-color: cadetblue;*/
+    }
+
+    .contactMe-section .contactMe-section-right-side {
+        position: absolute;
+        width: 100%;
+        height: 90%;
+        bottom: 3%;
+        /*background-color: burlywood;*/
+    }
+
+    .contactMe-section .contactMe-section-left-side .contactMe-section-left-side-content {
+        position: absolute;
+        width: 90%;
+        height: 35%;
+        /*background-color: #9d9d9d;*/
+        bottom: 1%;
+        left: 10%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .contactMe-section .contactMe-section-left-side .contactMe-section-left-side-content h2 {
+        font-family: "Abril Fatface", serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.3rem;
+        color: var(--second-text-color);
+        z-index: 9000;
+    }
+
+    .contactMe-section .contactMe-section-left-side .contactMe-section-left-side-content p {
+        font-family: "Asar", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.8rem;
+        color: var(--second-text-color);
+        z-index: 9000;
+    }
+
+    .contactMe-section .contactMe-section-left-side .contactMe-section-left-side-content h3 {
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.8rem;
+        color: #653D3D;
+        z-index: 9000;
+    }
+
+    .contactMe-section img {
+        position: absolute;
+        width: 33%;
+        height: 15%;
+        transform: scale(8.5);
+
+        top: 50%;
+        left: 13%;
+
+        opacity: 0.13;
+    }
+
+    .contactMe-section .contactMe-section-right-side .contactMe-section-form-before {
+        position: absolute;
+        width: 70%;
+        height: 60%;
+        background-color: var(--bg-color);
+        opacity: 0.2;
+
+        bottom: 3%;
+        left: 0;
+    }
+
+    .contactMe-section .contactMe-section-right-side form {
+        position: absolute;
+        width: 70%;
+        height: 60%;
+        border: 2px solid black;
+        box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.25);
+
+        bottom: 3%;
+        left: 0;
+    }
+
+    .contactMe-section .contactMe-section-right-side form .form-firstNameLastName {
+        position: absolute;
+        width: 80%;
+        height: 12%;
+        top: 4%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contactMe-section .contactMe-section-right-side form .form-email {
+        position: absolute;
+        width: 79%;
+        height: 13%;
+        top: 20%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /*margin: 1rem;*/
+    }
+
+    .contactMe-section .contactMe-section-right-side form .form-message {
+        position: absolute;
+        width: 79%;
+        top: 38%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .contactMe-section .contactMe-section-right-side form .form-button {
+        position: absolute;
+        width: 29%;
+        height: 7%;
+        bottom: 5%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+        /*background-color: black;*/
+        /*box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);*/
+    }
+
+    .contactMe-section .contactMe-section-right-side form .form-button button {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        font-family: "Inknut Antiqua", serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 0.8rem;
+        color: var(--text-color);
+        background-color: black;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .contactMe-section .contactMe-section-right-side form label {
+        font-family: "Abhaya Libre", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .contactMe-section .contactMe-section-right-side form input {
+        font-family: "Abhaya Libre", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.1rem;
+        box-shadow: 0 4px 2px rgba(0, 0, 0, 0.25);
+        opacity: 0.6;
+    }
+
+    .contactMe-section .contactMe-section-right-side form textarea {
+        font-family: "Abhaya Libre", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.1rem;
+        box-shadow: 0 4px 2px rgba(0, 0, 0, 0.25);
+        opacity: 0.6;
+    }
+
+    .contactMe-section .contactMe-section-right-side form #firstname {
+        height: 1.5rem;
+        width: 6rem;
+    }
+
+    .contactMe-section .contactMe-section-right-side form #lastname {
+        height: 1.5rem;
+        width: 6rem;
+    }
+
+    .contactMe-section .contactMe-section-right-side form #email {
+        height: 1.7rem;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 320px) {
+
+    .contactMe-section .contactMe-section-title {
+        position: absolute;
+        width: 100%;
+        height: 10%;
+        /*background-color: burlywood;*/
+        top: 1%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+    }
+
+    .contactMe-section .contactMe-section-title h1 {
+        font-family: "Abril Fatface", serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.8rem;
+        color: var(--text-color);
+        z-index: 9000;
+    }
+
+    .contactMe-section .contactMe-section-left-side {
+        position: absolute;
+        width: 70%;
+        height: 46%;
+        top: 0;
+        /*background-color: cadetblue;*/
+    }
+
+    .contactMe-section .contactMe-section-right-side {
+        position: absolute;
+        width: 100%;
+        height: 90%;
+        bottom: 3%;
+        /*background-color: burlywood;*/
+    }
+
+    .contactMe-section .contactMe-section-left-side .contactMe-section-left-side-content {
+        position: absolute;
+        width: 90%;
+        height: 35%;
+        /*background-color: #9d9d9d;*/
+        bottom: 1%;
+        left: 10%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .contactMe-section .contactMe-section-left-side .contactMe-section-left-side-content h2 {
+        font-family: "Abril Fatface", serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.3rem;
+        color: var(--second-text-color);
+        z-index: 9000;
+    }
+
+    .contactMe-section .contactMe-section-left-side .contactMe-section-left-side-content p {
+        font-family: "Asar", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.8rem;
+        color: var(--second-text-color);
+        z-index: 9000;
+    }
+
+    .contactMe-section .contactMe-section-left-side .contactMe-section-left-side-content h3 {
+        font-family: "Kumar One", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.8rem;
+        color: #653D3D;
+        z-index: 9000;
+    }
+
+    .contactMe-section img {
+        position: absolute;
+        width: 35%;
+        height: 12%;
+        transform: scale(8.5);
+
+        top: 50%;
+        left: 13%;
+
+        opacity: 0.13;
+    }
+
+    .contactMe-section .contactMe-section-right-side .contactMe-section-form-before {
+        position: absolute;
+        width: 70%;
+        height: 60%;
+        background-color: var(--bg-color);
+        opacity: 0.2;
+
+        bottom: 4%;
+        left: 0;
+    }
+
+    .contactMe-section .contactMe-section-right-side form {
+        position: absolute;
+        width: 70%;
+        height: 60%;
+        border: 2px solid black;
+        box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.25);
+
+        bottom: 4%;
+        left: 0;
+    }
+
+    .contactMe-section .contactMe-section-right-side form .form-firstNameLastName {
+        position: absolute;
+        width: 82%;
+        height: 12%;
+        top: 4%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contactMe-section .contactMe-section-right-side form .form-email {
+        position: absolute;
+        width: 79%;
+        height: 13%;
+        top: 20%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /*margin: 1rem;*/
+    }
+
+    .contactMe-section .contactMe-section-right-side form .form-message {
+        position: absolute;
+        width: 79%;
+        top: 38%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .contactMe-section .contactMe-section-right-side form .form-button {
+        position: absolute;
+        width: 32%;
+        height: 7%;
+        bottom: 5%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+        /*background-color: black;*/
+        /*box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);*/
+    }
+
+    .contactMe-section .contactMe-section-right-side form .form-button button {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+        font-family: "Inknut Antiqua", serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 0.7rem;
+        color: var(--text-color);
+        background-color: black;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .contactMe-section .contactMe-section-right-side form label {
+        font-family: "Abhaya Libre", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .contactMe-section .contactMe-section-right-side form input {
+        font-family: "Abhaya Libre", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.1rem;
+        box-shadow: 0 4px 2px rgba(0, 0, 0, 0.25);
+        opacity: 0.6;
+    }
+
+    .contactMe-section .contactMe-section-right-side form textarea {
+        font-family: "Abhaya Libre", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.1rem;
+        box-shadow: 0 4px 2px rgba(0, 0, 0, 0.25);
+        opacity: 0.6;
+    }
+
+    .contactMe-section .contactMe-section-right-side form #firstname {
+        height: 1.5rem;
+        width: 5.2rem;
+    }
+
+    .contactMe-section .contactMe-section-right-side form #lastname {
+        height: 1.5rem;
+        width: 5.2rem;
     }
 
     .contactMe-section .contactMe-section-right-side form #email {

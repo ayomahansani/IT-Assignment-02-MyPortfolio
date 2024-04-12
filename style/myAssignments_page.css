@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Aclonica", sans-serif;
+}
+
+:root {
+    --bg-color: black;
+    --second-bg-color: #B99292;
+    --text-color: white;
+    --second-text-color: black;
+    --third-text-color: #B99292;
+}
+
+.myAssignments-section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+
+    background-color: var(--bg-color);
+}

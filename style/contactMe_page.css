@@ -156,7 +156,7 @@
 
 .contactMe-section .contactMe-section-right-side form .form-firstNameLastName {
     position: absolute;
-    width: 100%;
+    width: 88%;
     height: 12%;
     top: 5%;
     left: 0;
@@ -261,10 +261,12 @@
 
 .contactMe-section .contactMe-section-right-side form #firstname {
     height: 1.5rem;
+    width: 12rem;
 }
 
 .contactMe-section .contactMe-section-right-side form #lastname {
     height: 1.5rem;
+    width: 12rem;
 }
 
 .contactMe-section .contactMe-section-right-side form #email {

@@ -1559,9 +1559,9 @@
 
     .contactMe-section .contactMe-section-right-side {
         position: absolute;
-        width: 75%;
-        height: 100%;
-        right: 0;
+        width: 100%;
+        height: 90%;
+        bottom: 3%;
         /*background-color: burlywood;*/
     }
 
@@ -1570,7 +1570,7 @@
         width: 90%;
         height: 35%;
         /*background-color: #9d9d9d;*/
-        bottom: 1%;
+        bottom: 5%;
         left: 10%;
 
         display: flex;
@@ -1620,25 +1620,24 @@
 
     .contactMe-section .contactMe-section-right-side .contactMe-section-form-before {
         position: absolute;
-        width: 97%;
-        height: 63%;
+        width: 75%;
+        height: 67%;
         background-color: var(--bg-color);
         opacity: 0.2;
 
-
-        bottom: 5%;
-        right: 5%;
+        bottom: 1%;
+        left: 0;
     }
 
     .contactMe-section .contactMe-section-right-side form {
         position: absolute;
-        width: 97%;
-        height: 63%;
+        width: 75%;
+        height: 67%;
         border: 2px solid black;
         box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.25);
 
-        bottom: 5%;
-        right: 5%;
+        bottom: 1%;
+        left: 0;
     }
 
     .contactMe-section .contactMe-section-right-side form .form-firstNameLastName {

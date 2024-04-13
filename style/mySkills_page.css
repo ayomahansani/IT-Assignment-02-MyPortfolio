@@ -83,7 +83,7 @@
 
 .mySkills-section .mySkills-section-main .mySkills-section-left-side .skill-bar .info {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding: 0.2rem;
 }

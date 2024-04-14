@@ -106,7 +106,7 @@
 .footer-bottom {
     position: absolute;
 
-    width: 17%;
+    width: 100%;
     height: 17%;
 
     top: 90%;
@@ -117,9 +117,14 @@
 
 .footer-bottom p {
     position: absolute;
+    width: 100%;
+    text-align: center;
 
+    font-family: "Amiri", serif;
+    font-weight: 500;
+    font-style: normal;
     padding: 0.5em;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     opacity: 0.8;
 }
 

@@ -36,24 +36,32 @@
 
 .mySkills-section .mySkills-section-main .mySkills-section-left-side {
     position: absolute;
-    width: 45%;
+    width: 25%;
     height: 75%;
     top: 0;
     bottom: 0;
     left: 3%;
     margin: auto;
-    /*background-color: #B99292;*/
+    background-color: burlywood;
+
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: space-around;*/
 }
 
 .mySkills-section .mySkills-section-main .mySkills-section-right-side {
     position: absolute;
-    width: 45%;
+    width: 25%;
     height: 75%;
     top: 0;
     bottom: 0;
     right: 3%;
     margin: auto;
-    /*background-color: darkseagreen;*/
+    background-color: darkseagreen;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .mySkills-section .mySkills-section-mid-line {
@@ -69,23 +77,11 @@
     border-radius: 6rem;
 }
 
-.mySkills-section .mySkills-section-main .mySkills-section-left-side {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.mySkills-section .mySkills-section-main .mySkills-section-right-side {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
 .mySkills-section .mySkills-section-main .mySkills-section-left-side .skill-bar .info {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    padding: 0.2rem;
+    /*padding: 0.2rem;*/
 }
 
 .mySkills-section .mySkills-section-main .mySkills-section-left-side .skill-bar .info p {
@@ -98,7 +94,7 @@
 
 .mySkills-section .mySkills-section-main .mySkills-section-left-side .skill-bar .bar {
     position: absolute;
-    width: 55%;
+    width: 100%;
     height: 0.6rem;
     background-color: #4f4f4f;
     border-radius: 20rem;
@@ -116,6 +112,7 @@
 
 .mySkills-section .mySkills-section-main .mySkills-section-right-side .skill-bar .info {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
     padding: 0.2rem;
@@ -131,7 +128,7 @@
 
 .mySkills-section .mySkills-section-main .mySkills-section-right-side .skill-bar .bar {
     position: absolute;
-    width: 55%;
+    width: 100%;
     height: 0.6rem;
     background-color: #4f4f4f;
     border-radius: 20rem;
@@ -142,7 +139,56 @@
     position: absolute;
     width: 50%;
     height: 100%;
-    left: 0;
+    right: 0;
     background-color: var(--second-bg-color);
     border-radius: 20rem;
 }
+
+.mySkills-section .mySkills-section-main .mySkills-section-left-side .skill-bar .bar .java {
+    width: 75%;
+}
+
+.mySkills-section .mySkills-section-main .mySkills-section-left-side .skill-bar .bar .mysql {
+    width: 70%;
+}
+
+.mySkills-section .mySkills-section-main .mySkills-section-left-side .skill-bar .bar .javafx {
+    width: 65%;
+}
+
+.mySkills-section .mySkills-section-main .mySkills-section-left-side .skill-bar .bar .javascript {
+    width: 15%;
+}
+
+.mySkills-section .mySkills-section-main .mySkills-section-right-side .skill-bar .bar .html {
+    width: 45%;
+}
+
+.mySkills-section .mySkills-section-main .mySkills-section-right-side .skill-bar .bar .css {
+    width: 40%;
+}
+
+.mySkills-section .mySkills-section-main .mySkills-section-right-side .skill-bar .bar .hibernate {
+    width: 50%;
+}
+
+.mySkills-section .mySkills-section-main .mySkills-section-right-side .skill-bar .bar .jquery {
+    width: 10%;
+}
+
+.info>img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.mySkills-section .mySkills-section-main .mySkills-section-left-side>div:nth-child(2)>div:nth-child(2) {
+    left: 3rem;
+}
+
+/*.mySkills-section .mySkills-section-main .mySkills-section-left-side>div:nth-child(2)>div:nth-child(2) {*/
+/*    left: 3rem;*/
+/*}*/
+
+/*.mySkills-section .mySkills-section-main .mySkills-section-left-side>div:nth-child(3)>div:nth-child(2) {*/
+/*    left: 6rem;*/
+/*}*/

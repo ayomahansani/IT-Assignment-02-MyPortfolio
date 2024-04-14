@@ -36,32 +36,24 @@
 
 .mySkills-section .mySkills-section-main .mySkills-section-left-side {
     position: absolute;
-    width: 25%;
+    width: 45%;
     height: 75%;
     top: 0;
     bottom: 0;
     left: 3%;
     margin: auto;
-    background-color: burlywood;
-
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*justify-content: space-around;*/
+    /*background-color: burlywood;*/
 }
 
 .mySkills-section .mySkills-section-main .mySkills-section-right-side {
     position: absolute;
-    width: 25%;
+    width: 45%;
     height: 75%;
     top: 0;
     bottom: 0;
     right: 3%;
     margin: auto;
-    background-color: darkseagreen;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    /*background-color: darkseagreen;*/
 }
 
 .mySkills-section .mySkills-section-mid-line {
@@ -77,25 +69,31 @@
     border-radius: 6rem;
 }
 
+.mySkills-section .mySkills-section-main .mySkills-section-left-side .skill-bar {
+    position: absolute;
+    width: 60%;
+    height: 15%;
+}
+
 .mySkills-section .mySkills-section-main .mySkills-section-left-side .skill-bar .info {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*padding: 0.2rem;*/
+    padding: 0 0.5rem;
 }
 
 .mySkills-section .mySkills-section-main .mySkills-section-left-side .skill-bar .info p {
     font-family: "Baloo 2", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: var(--text-color);
 }
 
 .mySkills-section .mySkills-section-main .mySkills-section-left-side .skill-bar .bar {
     position: absolute;
     width: 100%;
-    height: 0.6rem;
+    height: 0.8rem;
     background-color: #4f4f4f;
     border-radius: 20rem;
     margin-top: 1rem;
@@ -103,11 +101,17 @@
 
 .mySkills-section .mySkills-section-main .mySkills-section-left-side .skill-bar .bar span {
     position: absolute;
-    width: 50%;
+    width: 100%;
     height: 100%;
     left: 0;
     background-color: var(--second-bg-color);
     border-radius: 20rem;
+}
+
+.mySkills-section .mySkills-section-main .mySkills-section-right-side .skill-bar {
+    position: absolute;
+    width: 60%;
+    height: 15%;
 }
 
 .mySkills-section .mySkills-section-main .mySkills-section-right-side .skill-bar .info {
@@ -115,21 +119,21 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    padding: 0.2rem;
+    padding: 0 0.5rem;
 }
 
 .mySkills-section .mySkills-section-main .mySkills-section-right-side .skill-bar .info p {
     font-family: "Baloo 2", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: var(--text-color);
 }
 
 .mySkills-section .mySkills-section-main .mySkills-section-right-side .skill-bar .bar {
     position: absolute;
     width: 100%;
-    height: 0.6rem;
+    height: 0.8rem;
     background-color: #4f4f4f;
     border-radius: 20rem;
     margin-top: 1rem;
@@ -137,7 +141,7 @@
 
 .mySkills-section .mySkills-section-main .mySkills-section-right-side .skill-bar .bar span {
     position: absolute;
-    width: 50%;
+    width: 100%;
     height: 100%;
     right: 0;
     background-color: var(--second-bg-color);
@@ -181,14 +185,51 @@
     height: 3rem;
 }
 
-.mySkills-section .mySkills-section-main .mySkills-section-left-side>div:nth-child(2)>div:nth-child(2) {
-    left: 3rem;
+.mySkills-section .mySkills-section-main .mySkills-section-left-side>div:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
-/*.mySkills-section .mySkills-section-main .mySkills-section-left-side>div:nth-child(2)>div:nth-child(2) {*/
-/*    left: 3rem;*/
-/*}*/
+.mySkills-section .mySkills-section-main .mySkills-section-left-side>div:nth-child(2) {
+    position: absolute;
+    top: 27%;
+    left: 10%
+}
 
-/*.mySkills-section .mySkills-section-main .mySkills-section-left-side>div:nth-child(3)>div:nth-child(2) {*/
-/*    left: 6rem;*/
-/*}*/
+.mySkills-section .mySkills-section-main .mySkills-section-left-side>div:nth-child(3) {
+    position: absolute;
+    top: 54%;
+    left: 20%;
+}
+
+.mySkills-section .mySkills-section-main .mySkills-section-left-side>div:nth-child(4) {
+    position: absolute;
+    top: 81%;
+    left: 30%;
+}
+
+.mySkills-section .mySkills-section-main .mySkills-section-right-side>div:nth-child(1) {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.mySkills-section .mySkills-section-main .mySkills-section-right-side>div:nth-child(2) {
+    position: absolute;
+    top: 27%;
+    right: 10%
+}
+
+.mySkills-section .mySkills-section-main .mySkills-section-right-side>div:nth-child(3) {
+    position: absolute;
+    top: 54%;
+    right: 20%;
+}
+
+.mySkills-section .mySkills-section-main .mySkills-section-right-side>div:nth-child(4) {
+    position: absolute;
+    top: 81%;
+    right: 30%;
+}
+

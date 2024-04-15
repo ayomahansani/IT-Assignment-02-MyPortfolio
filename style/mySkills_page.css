@@ -1110,3 +1110,201 @@
         margin: auto;
     }
 }
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 320px) {
+
+    .mySkills-section {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+
+        overflow: hidden;
+
+        background-color: var(--bg-color);
+    }
+
+    .mySkills-section .mySkills-section-main {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+
+    .mySkills-section .mySkills-section-main .mySkills-section-left-side {
+        position: absolute;
+        width: 90%;
+        height: 85%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        /*background-color: burlywood;*/
+    }
+
+    .mySkills-section .mySkills-section-main .mySkills-section-right-side {
+        position: absolute;
+        width: 90%;
+        height: 85%;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        /*background-color: darkseagreen;*/
+    }
+
+    .mySkills-section .mySkills-section-mid-line {
+        display: none;
+    }
+
+    .mySkills-section .mySkills-section-main .mySkills-section-left-side .skill-bar {
+        position: absolute;
+        width: 75%;
+        height: 15%;
+    }
+
+    .mySkills-section .mySkills-section-main .mySkills-section-left-side .skill-bar .info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 0.5rem;
+    }
+
+    .mySkills-section .mySkills-section-main .mySkills-section-left-side .skill-bar .info p {
+        font-family: "Baloo 2", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.1rem;
+        color: var(--text-color);
+    }
+
+    .mySkills-section .mySkills-section-main .mySkills-section-left-side .skill-bar .bar {
+        position: absolute;
+        width: 100%;
+        height: 0.5rem;
+        background-color: #4f4f4f;
+        border-radius: 20rem;
+        margin-top: 0.5rem;
+    }
+
+    .mySkills-section .mySkills-section-main .mySkills-section-left-side .skill-bar .bar span {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        background-color: var(--second-bg-color);
+        border-radius: 20rem;
+    }
+
+    .mySkills-section .mySkills-section-main .mySkills-section-right-side .skill-bar {
+        position: absolute;
+        width: 75%;
+        height: 15%;
+    }
+
+    .mySkills-section .mySkills-section-main .mySkills-section-right-side .skill-bar .info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 0.5rem;
+    }
+
+    .mySkills-section .mySkills-section-main .mySkills-section-right-side .skill-bar .info p {
+        font-family: "Baloo 2", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.1rem;
+        color: var(--text-color);
+    }
+
+    .mySkills-section .mySkills-section-main .mySkills-section-right-side .skill-bar .bar {
+        position: absolute;
+        width: 100%;
+        height: 0.5rem;
+        background-color: #4f4f4f;
+        border-radius: 20rem;
+        margin-top: 0.5rem;
+    }
+
+    .mySkills-section .mySkills-section-main .mySkills-section-right-side .skill-bar .bar span {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        right: 0;
+        background-color: var(--second-bg-color);
+        border-radius: 20rem;
+    }
+
+    .info>img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .mySkills-section .mySkills-section-main .mySkills-section-left-side>div:nth-child(1) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .mySkills-section .mySkills-section-main .mySkills-section-left-side>div:nth-child(2) {
+        position: absolute;
+        top: 25%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .mySkills-section .mySkills-section-main .mySkills-section-left-side>div:nth-child(3) {
+        position: absolute;
+        top: 52%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .mySkills-section .mySkills-section-main .mySkills-section-left-side>div:nth-child(4) {
+        position: absolute;
+        top: 79%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .mySkills-section .mySkills-section-main .mySkills-section-right-side>div:nth-child(1) {
+        position: absolute;
+        top: 12%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .mySkills-section .mySkills-section-main .mySkills-section-right-side>div:nth-child(2) {
+        position: absolute;
+        top: 39%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .mySkills-section .mySkills-section-main .mySkills-section-right-side>div:nth-child(3) {
+        position: absolute;
+        top: 66%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .mySkills-section .mySkills-section-main .mySkills-section-right-side>div:nth-child(4) {
+        position: absolute;
+        top: 93%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}

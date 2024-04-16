@@ -204,41 +204,49 @@
 .mySkills-section .mySkills-section-main .mySkills-section-left-side .skill-bar .bar .java {
     width: 75%;
     animation: java 1s;
+    box-shadow: 0 0 0.8rem var(--second-bg-color);
 }
 
 .mySkills-section .mySkills-section-main .mySkills-section-left-side .skill-bar .bar .mysql {
     width: 70%;
     animation: mysql 2s;
+    box-shadow: 0 0 0.8rem var(--second-bg-color);
 }
 
 .mySkills-section .mySkills-section-main .mySkills-section-left-side .skill-bar .bar .javafx {
     width: 65%;
     animation: javafx 3s;
+    box-shadow: 0 0 0.8rem var(--second-bg-color);
 }
 
 .mySkills-section .mySkills-section-main .mySkills-section-left-side .skill-bar .bar .javascript {
     width: 15%;
     animation: javascript 4s;
+    box-shadow: 0 0 0.8rem var(--second-bg-color);
 }
 
 .mySkills-section .mySkills-section-main .mySkills-section-right-side .skill-bar .bar .html {
     width: 45%;
     animation: html 1s;
+    box-shadow: 0 0 0.8rem var(--second-bg-color);
 }
 
 .mySkills-section .mySkills-section-main .mySkills-section-right-side .skill-bar .bar .css {
     width: 40%;
     animation: css 2s;
+    box-shadow: 0 0 0.8rem var(--second-bg-color);
 }
 
 .mySkills-section .mySkills-section-main .mySkills-section-right-side .skill-bar .bar .hibernate {
     width: 50%;
     animation: hibernate 3s;
+    box-shadow: 0 0 0.8rem var(--second-bg-color);
 }
 
 .mySkills-section .mySkills-section-main .mySkills-section-right-side .skill-bar .bar .jquery {
     width: 10%;
     animation: jquery 4s;
+    box-shadow: 0 0 0.8rem var(--second-bg-color);
 }
 
 /* -------------------------- Keyframes ------------------------*/

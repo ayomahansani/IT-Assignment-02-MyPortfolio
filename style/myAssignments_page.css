@@ -27,80 +27,60 @@
     background-color: grey;
 }
 
-.myAssignments-section-main {
-    width: 50vw;
-    height: 50vh;
-    border: 5px solid red;
+/* Buttons */
+.button {
+    display: inline-block;
+    background-color: var(--second-bg-color);
+    color: var(--text-color);
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    font-family: "Kameron", serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
 
-    position: absolute;
+.button:hover {
+    background-color: rgba(185, 146, 146, 0.76);
+    box-shadow: 0 0 0.8rem var(--second-bg-color);
+}
 
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+.button_icon {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    transition: 3s;
+}
 
-    margin: auto;
+.button--flex {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* End Buttons */
 
-    overflow: hidden;
+.myAssignments-section-container {
+    overflow: initial;
 }
 
 .myAssignments-section-content {
-    width: 200vw; /* ( 50vw * 4 = 200vw ) */
-    display: flex;
-
-    /*animation-name: my-animation;*/
-    /*animation-duration: 10s;*/
-    /*animation-timing-function: ease-in;*/
-    /*animation-iteration-count: infinite;*/
-    /*animation-direction: reverse;*/
-
-    transform: translateX(0%);
+    padding: 0 1.5rem;
 }
 
-.myAssignments-section-content>div {
-    width: 50vw;
-    height: 50vh;
-    background-color: pink;
-    border: 1px solid purple;
+.myAssignments-section-img {
+    width: 165px;
+    border-radius: 0.5rem;
+    justify-self: center;
 }
 
-.myAssignments-section-content>div:nth-child(1){
-    background-image: url("assets/images/mySkillsTopicBackground.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.assignment-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
-/*.myAssignments-section-content>div:nth-child(2){*/
-/*    background-image: url("assets/slide2.jpeg");*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;*/
-/*}*/
+.assignment-description {
+    margin-bottom: 1rem;
+}
 
-/*.myAssignments-section-content>div:nth-child(3){*/
-/*    background-image: url("assets/slide3.jpeg");*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;*/
-/*}*/
-
-/*.myAssignments-section-content>div:nth-child(4){*/
-/*    background-image: url("assets/slide4.jpeg");*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;*/
-/*}*/
-
-@keyframes my-animation {
-
-    0%,20%{
-        transform: translateX(0%);
-    } 25%,45%{
-        transform: translateX(-25%);
-    } 50%,70%{
-        transform: translateX(-50%);
-    } 75%,95%{
-        transform: translateX(-75%);
-    }
+.assignment-button:hover .button_icon {
+    transform: translateX(0.25rem);
 }

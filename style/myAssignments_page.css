@@ -48,11 +48,11 @@
     width: 200vw; /* ( 50vw * 4 = 200vw ) */
     display: flex;
 
-    animation-name: my-animation;
-    animation-duration: 10s;
-    animation-timing-function: ease-in;
-    animation-iteration-count: infinite;
-    animation-direction: reverse;
+    /*animation-name: my-animation;*/
+    /*animation-duration: 10s;*/
+    /*animation-timing-function: ease-in;*/
+    /*animation-iteration-count: infinite;*/
+    /*animation-direction: reverse;*/
 
     transform: translateX(0%);
 }
@@ -64,3 +64,43 @@
     border: 1px solid purple;
 }
 
+.myAssignments-section-content>div:nth-child(1){
+    background-image: url("assets/images/mySkillsTopicBackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*.myAssignments-section-content>div:nth-child(2){*/
+/*    background-image: url("assets/slide2.jpeg");*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*}*/
+
+/*.myAssignments-section-content>div:nth-child(3){*/
+/*    background-image: url("assets/slide3.jpeg");*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*}*/
+
+/*.myAssignments-section-content>div:nth-child(4){*/
+/*    background-image: url("assets/slide4.jpeg");*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*}*/
+
+@keyframes my-animation {
+
+    0%,20%{
+        transform: translateX(0%);
+    } 25%,45%{
+        transform: translateX(-25%);
+    } 50%,70%{
+        transform: translateX(-50%);
+    } 75%,95%{
+        transform: translateX(-75%);
+    }
+}

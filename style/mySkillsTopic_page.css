@@ -11,7 +11,7 @@
 
 :root {
     --bg-color: black;
-    --second-bg-color: #B99292;
+    --second-bg-color: rgb(185, 146, 146);
     --text-color: white;
     --second-text-color: black;
     --third-text-color: #B99292;

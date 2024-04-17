@@ -27,3 +27,40 @@
     background-color: grey;
 }
 
+.myAssignments-section-main {
+    width: 50vw;
+    height: 50vh;
+    border: 5px solid red;
+
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+    overflow: hidden;
+}
+
+.myAssignments-section-content {
+    width: 200vw; /* ( 50vw * 4 = 200vw ) */
+    display: flex;
+
+    animation-name: my-animation;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+
+    transform: translateX(0%);
+}
+
+.myAssignments-section-content>div {
+    width: 50vw;
+    height: 50vh;
+    background-color: pink;
+    border: 1px solid purple;
+}
+

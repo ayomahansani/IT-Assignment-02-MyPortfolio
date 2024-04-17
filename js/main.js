@@ -1,4 +1,4 @@
-// Start Home Page
+// ------------- Start Home Page -------------
 
 // header
 const header = document.querySelector("header");
@@ -30,5 +30,26 @@ closeIcon.addEventListener("click", () => {
 
 // end menu icon
 
+// ------------- End Home Page -------------
 
-// End Home Page
+// ------------- Start My Assignments Page -------------
+
+// SWIPER
+
+let swiper = new Swiper('.myAssignments-section-container' , {
+    cssMode: true,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+        el: '.swiper-pagination'
+    },
+    mousewheel: true,
+    keyboard: true,
+});
+
+// end SWIPER
+
+
+// ------------- End My Assignments Page -------------

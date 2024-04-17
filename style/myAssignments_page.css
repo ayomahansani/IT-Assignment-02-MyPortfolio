@@ -62,6 +62,17 @@
     overflow: initial;
 }
 
+.container {
+    max-width: 768px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
 .myAssignments-section-content {
     padding: 0 1.5rem;
 }

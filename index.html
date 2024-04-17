@@ -14,9 +14,6 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- End of Box icon -->
 
-    <!-- Swiper CSS-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.1.1/swiper-bundle.min.css">
-    <!-- End of Swiper CSS-->
 
     <!--  Google Fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -660,12 +657,12 @@
     <!----------  My Assignments section  ---------->
     <section class="myAssignments-section">
 
-        <div class="myAssignments-section-container container">
+        <div class="myAssignments-section-container container swiper-zoom-container">
 
-            <div>
+            <div class="swiper-wrapper">
 
                 <!-- Assignment 1 -->
-                <div class="myAssignments-section-content grid">
+                <div class="myAssignments-section-content grid swiper-slide">
                     <img src="assets/icons/icon-bye.png" class="myAssignments-section-img">
 
                     <div class="myAssignments-section-data">
@@ -680,7 +677,7 @@
                 <!-- End of Assignment 1 -->
 
                 <!-- Assignment 2 -->
-                <div class="myAssignments-section-content grid">
+                <div class="myAssignments-section-content grid swiper-slide">
                     <img src="assets/icons/icon-bye.png" class="myAssignments-section-img">
 
                     <div class="myAssignments-section-data">
@@ -695,7 +692,7 @@
                 <!-- End of Assignment 2 -->
 
                 <!-- Assignment 3 -->
-                <div class="myAssignments-section-content grid">
+                <div class="myAssignments-section-content grid swiper-slide">
                     <img src="assets/icons/icon-bye.png" class="myAssignments-section-img">
 
                     <div class="myAssignments-section-data">
@@ -710,7 +707,7 @@
                 <!-- End of Assignment 3 -->
 
                 <!-- Assignment 4 -->
-                <div class="myAssignments-section-content grid">
+                <div class="myAssignments-section-content grid swiper-slide">
                     <img src="assets/icons/icon-bye.png" class="myAssignments-section-img">
 
                     <div class="myAssignments-section-data">
@@ -725,7 +722,7 @@
                 <!-- End of Assignment 4 -->
 
                 <!-- Assignment 5 -->
-                <div class="myAssignments-section-content grid">
+                <div class="myAssignments-section-content grid swiper-slide">
                     <img src="assets/icons/icon-bye.png" class="myAssignments-section-img">
 
                     <div class="myAssignments-section-data">
@@ -740,7 +737,7 @@
                 <!-- End of Assignment 5 -->
 
                 <!-- Assignment 6 -->
-                <div class="myAssignments-section-content grid">
+                <div class="myAssignments-section-content grid swiper-slide">
                     <img src="assets/icons/icon-bye.png" class="myAssignments-section-img">
 
                     <div class="myAssignments-section-data">
@@ -755,6 +752,13 @@
                 <!-- End of Assignment 6 -->
 
             </div>
+
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
 
         </div>
 
@@ -885,9 +889,6 @@
 
 <script src="js/main.js"></script>
 
-<!-- Swiper JS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11.1.1/swiper-bundle.min.js"></script>
-<!-- End of Swiper JS -->
 
 </body>
 </html>

@@ -32,24 +32,49 @@ closeIcon.addEventListener("click", () => {
 
 // ------------- End Home Page -------------
 
+
 // ------------- Start My Assignments Page -------------
 
-// SWIPER
+const myslide = document.querySelectorAll('.mySlider'),
+    dot = document.querySelectorAll('.dot');
 
-let swiper = new Swiper('.myAssignments-section-container' , {
-    cssMode: true,
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-    pagination: {
-        el: '.swiper-pagination'
-    },
-    mousewheel: true,
-    keyboard: true,
-});
+let counter = 1;
+slidefun(counter);
 
-// end SWIPER
+let timer = setInterval(autoslide, 8000);
+function autoslide() {
+    counter += 1;
+    slidefun(counter);
+}
 
+function plusSlides(n) {
+    counter += n;
+    slidefun(counter);
+    resetTimer();
+}
+
+function resetTimer() {
+    clearInterval(timer);
+    timer = setInterval(autoslide, 8000)
+}
+
+function slidefun(n){
+    let i;
+
+    for(i=0; i<myslide.length; i++){
+        myslide[i].style.display = "none";
+    }
+    for(i=0; i<dot.length; i++){
+        dot[i].classList.remove('active');
+    }
+    if(n > myslide.length){
+        counter = 1;
+    }
+    if(n < 1){
+        counter = myslide.length;
+    }
+    myslide[counter - 1].style.display = "block";
+    dot[counter - 1].classList.add('active');
+}
 
 // ------------- End My Assignments Page -------------

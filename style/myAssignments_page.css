@@ -22,76 +22,156 @@
     width: 100vw;
     height: 100vh;
 
+    /*overflow: hidden;*/
+
+    background-color: var(--bg-color);
+}
+
+.mySlider {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
     overflow: hidden;
-
-    background-color: grey;
 }
 
-/* Buttons */
-.button {
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 4.5rem;
+    padding: 2rem;
+    cursor: pointer;
+    color: white;
+    transition: 0.1s;
+    user-select: none;
+    box-shadow: 0 0 1rem var(--text-color);
+    text-shadow: 0 0 1rem var(--text-color);
+}
+
+.prev:hover, .next:hover {
+    color: var(--third-text-color);
+    box-shadow: 0 0 1rem var(--second-bg-color);
+    text-shadow: 0 0 1rem var(--second-bg-color);
+}
+
+.next {
+    right: 0;
+}
+
+.dotsBox {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 3rem;
+    cursor: pointer;
+}
+
+.dotsBox .dot {
     display: inline-block;
-    background-color: var(--second-bg-color);
-    color: var(--text-color);
-    padding: 0.7rem;
-    border-radius: 0.5rem;
-    font-family: "Kameron", serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 0.9rem;
+    width: 18px;
+    height: 18px;
+    border: 4px solid white;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+    box-shadow: 0 0 0.5rem var(--text-color);
 }
 
-.button:hover {
-    background-color: rgba(185, 146, 146, 0.76);
-    box-shadow: 0 0 0.8rem var(--second-bg-color);
+.active, .dot:hover{
+    border-color: var(--third-text-color);
+    box-shadow: 0 0 0.5rem var(--third-text-color);
 }
 
-.button_icon {
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 30s;
+    animation-name: fade;
+    animation-duration: 30s;
+}
+
+@-webkit-keyframes fade {
+    from{
+        opacity: 0.5;
+    }to{
+         opacity: 0.9;
+     }
+}
+
+@keyframes fade {
+    from{
+        opacity: 0.5;
+    }to{
+        opacity: 0.9;
+    }
+}
+
+.txt {
+    position: absolute;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 35px;
+    top: 40%;
+    left: 15%;
+
+    -webkit-animation-name: posi;
+    -webkit-animation-duration: 2s;
+    animation-name: posi;
+    animation-duration: 2s;
+    z-index: 1;
+}
+
+@-webkit-keyframes posi {
+    from{
+        left: 25%;
+    }to{
+         left: 15%;
+     }
+}
+@keyframes posi {
+    from{
+        left: 25%;
+    }to{
+        left: 15%;
+    }
+}
+
+.txt h1 {
+    color: #B99292;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.txt p {
+    font-weight: bold;
     font-size: 1.5rem;
-    margin-left: 1rem;
-    transition: 3s;
 }
 
-.button--flex {
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
-}
-/* End Buttons */
-
-.myAssignments-section-container {
-    overflow: initial;
+.mySlider img {
+    transform: scale(1.5, 1.5);
+    -webkit-animation-name: zoomin;
+    -webkit-animation-duration: 40s;
+    animation-name: zoomin;
+    animation-duration: 40s;
 }
 
-.container {
-    max-width: 768px;
-    margin-left: 1rem;
-    margin-right: 1rem;
+@-webkit-keyframes zoomin {
+    from{
+        transform: scale(1,1);
+    }to{
+         transform: scale(1.5, 1.5)
+     }
 }
 
-.grid {
-    display: grid;
-    gap: 1.5rem;
-}
-
-.myAssignments-section-content {
-    padding: 0 1.5rem;
-}
-
-.myAssignments-section-img {
-    width: 165px;
-    border-radius: 0.5rem;
-    justify-self: center;
-}
-
-.assignment-title {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-.assignment-description {
-    margin-bottom: 1rem;
-}
-
-.assignment-button:hover .button_icon {
-    transform: translateX(0.25rem);
+@keyframes zoomin {
+    from{
+        transform: scale(1,1);
+    }to{
+        transform: scale(1.5, 1.5)
+    }
 }

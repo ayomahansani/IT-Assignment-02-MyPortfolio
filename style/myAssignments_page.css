@@ -22,8 +22,6 @@
     width: 100vw;
     height: 100vh;
 
-    /*overflow: hidden;*/
-
     background-color: var(--bg-color);
 }
 
@@ -47,7 +45,7 @@
     font-size: 4.5rem;
     padding: 2rem;
     cursor: pointer;
-    color: white;
+    color: var(--text-color);
     transition: 0.1s;
     user-select: none;
     box-shadow: 0 0 1rem var(--text-color);
@@ -56,8 +54,8 @@
 
 .prev:hover, .next:hover {
     color: var(--third-text-color);
-    box-shadow: 0 0 1rem var(--second-bg-color);
-    text-shadow: 0 0 1rem var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--third-text-color);
+    text-shadow: 0 0 1rem var(--third-text-color);
 }
 
 .next {
@@ -68,24 +66,25 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    bottom: 3rem;
+    bottom: 3.3rem;
     cursor: pointer;
+    text-align: center;
 }
 
 .dotsBox .dot {
     display: inline-block;
-    width: 18px;
-    height: 18px;
-    border: 4px solid white;
+    width: 1.3rem;
+    height: 1.3rem;
+    border: 5px solid var(--text-color);
     border-radius: 50%;
-    margin: 0 10px;
+    margin: 0 1rem;
     cursor: pointer;
     box-shadow: 0 0 0.5rem var(--text-color);
 }
 
 .active, .dot:hover{
     border-color: var(--third-text-color);
-    box-shadow: 0 0 0.5rem var(--third-text-color);
+    box-shadow: 0 0 1rem var(--third-text-color);
 }
 
 .fade {
@@ -99,8 +98,8 @@
     from{
         opacity: 0.5;
     }to{
-         opacity: 0.9;
-     }
+        opacity: 0.9;
+    }
 }
 
 @keyframes fade {
@@ -113,36 +112,36 @@
 
 .txt {
     position: absolute;
-    color: white;
-    letter-spacing: 2px;
-    line-height: 35px;
-    top: 40%;
+    color: var(--text-color);
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    top: 30%;
     left: 15%;
 
     -webkit-animation-name: posi;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 3s;
     animation-name: posi;
-    animation-duration: 2s;
-    z-index: 1;
+    animation-duration: 3s;
+    z-index: 100;
 }
 
 @-webkit-keyframes posi {
     from{
-        left: 25%;
-    }to{
-         left: 15%;
-     }
+        left: 30%;
+    }to {
+        left: 15%;
+    }
 }
 @keyframes posi {
     from{
-        left: 25%;
+        left: 30%;
     }to{
         left: 15%;
     }
 }
 
 .txt h1 {
-    color: #B99292;
+    color: var(--third-text-color);
     font-weight: bold;
     margin-bottom: 3rem;
 }
@@ -150,21 +149,35 @@
 .txt p {
     font-weight: bold;
     font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.txt a {
+    font-family: "Abel", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+    color: var(--text-color);
+    border-bottom: 1px solid var(--text-color);
+    margin-left: 0.5rem;
 }
 
 .mySlider img {
+    width: 100%;
+    height: 100%;
     transform: scale(1.5, 1.5);
+
     -webkit-animation-name: zoomin;
-    -webkit-animation-duration: 40s;
+    -webkit-animation-duration: 30s;
     animation-name: zoomin;
-    animation-duration: 40s;
+    animation-duration: 30s;
 }
 
 @-webkit-keyframes zoomin {
     from{
         transform: scale(1,1);
     }to{
-         transform: scale(1.5, 1.5)
+         transform: scale(1.8, 1.8)
      }
 }
 
@@ -172,6 +185,6 @@
     from{
         transform: scale(1,1);
     }to{
-        transform: scale(1.5, 1.5)
+        transform: scale(1.8, 1.8)
     }
 }

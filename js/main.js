@@ -53,6 +53,10 @@ function plusSlides(n) {
     resetTimer();
 }
 
+function currentSlide(n) {
+
+}
+
 function resetTimer() {
     clearInterval(timer);
     timer = setInterval(autoslide, 8000)

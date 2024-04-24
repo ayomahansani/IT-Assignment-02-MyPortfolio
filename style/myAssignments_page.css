@@ -82,7 +82,7 @@
     box-shadow: 0 0 0.5rem var(--text-color);
 }
 
-.active, .dot:hover{
+.dotsBox .active, .dotsBox.dot:hover{
     border-color: var(--third-text-color);
     box-shadow: 0 0 1rem var(--third-text-color);
 }

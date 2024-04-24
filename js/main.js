@@ -4,7 +4,7 @@
 const header = document.querySelector("header");
 
 window.addEventListener("scroll", () => {
-    if(window.pageYOffset > 680) {
+    if(window.pageYOffset > 650) {
         header.classList.add("scrolled");
     }else {
         header.classList.remove("scrolled");
@@ -54,7 +54,9 @@ function plusSlides(n) {
 }
 
 function currentSlide(n) {
-
+    counter = n;
+    slidefun(counter);
+    resetTimer();
 }
 
 function resetTimer() {
@@ -69,7 +71,7 @@ function slidefun(n){
         myslide[i].style.display = "none";
     }
     for(i=0; i<dot.length; i++){
-        dot[i].classList.remove('active');
+        dot[i].classList.remove("active");
     }
     if(n > myslide.length){
         counter = 1;
@@ -77,8 +79,9 @@ function slidefun(n){
     if(n < 1){
         counter = myslide.length;
     }
+
     myslide[counter - 1].style.display = "block";
-    dot[counter - 1].classList.add('active');
+    dot[counter - 1].classList.add("active");
 }
 
 // ------------- End My Assignments Page -------------

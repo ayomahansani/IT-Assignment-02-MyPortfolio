@@ -245,33 +245,395 @@
         text-shadow: 0 0 1rem var(--text-color);
     }
 
-    .prev:hover, .next:hover {
-        color: var(--third-text-color);
+    .dotsBox .active, .dotsBox.dot:hover{
+        border-color: var(--third-text-color);
         box-shadow: 0 0 1rem var(--third-text-color);
-        text-shadow: 0 0 1rem var(--third-text-color);
     }
 
-    .next {
-        right: 0;
+    .mySlider img {
+        width: 100%;
+        height: 100%;
+        transform: scale(1, 1);
+
+        -webkit-animation-name: zoomin;
+        -webkit-animation-duration: 30s;
+        animation-name: zoomin;
+        animation-duration: 30s;
     }
 
-    .dotsBox {
+    @-webkit-keyframes zoomin {
+        from{
+            transform: scale(1,1);
+        }to{
+             transform: scale(1.8, 1.8)
+         }
+    }
+
+    @keyframes zoomin {
+        from{
+            transform: scale(1,1);
+        }to{
+             transform: scale(1.8, 1.8)
+         }
+    }
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 900px) {
+
+    .prev, .next {
         position: absolute;
-        left: 50%;
-        transform: translate(-50%);
-        bottom: 3.3rem;
+        top: 50%;
+        transform: translate(0, -50%);
+        font-size: 4rem;
+        padding: 1.1rem;
         cursor: pointer;
-        text-align: center;
+        color: var(--text-color);
+        transition: 0.1s;
+        user-select: none;
+        box-shadow: 0 0 1rem var(--text-color);
+        text-shadow: 0 0 1rem var(--text-color);
     }
 
-    .dotsBox .dot {
-        display: inline-block;
-        width: 1.3rem;
-        height: 1.3rem;
-        border: 5px solid var(--text-color);
-        border-radius: 50%;
-        margin: 0 1rem;
+    .dotsBox .active, .dotsBox.dot:hover{
+        border-color: var(--third-text-color);
+        box-shadow: 0 0 1rem var(--third-text-color);
+    }
+
+    .mySlider {
+        position: absolute;
+        width: 70%;
+        height: 50%;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        display: none;
+        overflow: hidden;
+    }
+
+    .mySlider img {
+        width: 100%;
+        height: 100%;
+        transform: scale(1, 1);
+
+        -webkit-animation-name: zoomin;
+        -webkit-animation-duration: 30s;
+        animation-name: zoomin;
+        animation-duration: 30s;
+    }
+
+    @-webkit-keyframes zoomin {
+        from{
+            transform: scale(1,1);
+        }to{
+             transform: scale(1.8, 1.8)
+         }
+    }
+
+    @keyframes zoomin {
+        from{
+            transform: scale(1,1);
+        }to{
+             transform: scale(1.8, 1.8)
+         }
+    }
+
+    .txt {
+        position: absolute;
+        color: var(--text-color);
+        letter-spacing: 0.1rem;
+        line-height: 2rem;
+        top: 30%;
+        left: 13%;
+
+        -webkit-animation-name: posi;
+        -webkit-animation-duration: 3s;
+        animation-name: posi;
+        animation-duration: 3s;
+        z-index: 100;
+    }
+
+    @-webkit-keyframes posi {
+        from{
+            left: 30%;
+        }to {
+             left: 13%;
+         }
+    }
+    @keyframes posi {
+        from{
+            left: 30%;
+        }to{
+             left: 13%;
+         }
+    }
+
+    .txt h1 {
+        color: var(--third-text-color);
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 2.1rem;
+    }
+
+    .txt p {
+        font-family: "Public Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+    }
+
+    .txt a {
+        font-family: "Public Sans", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.8rem;
+        color: var(--third-text-color);
+        border-bottom: 2px solid var(--third-text-color);
+        margin-left: 0.2rem;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 768px) {
+
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        font-size: 3.5rem;
+        padding: 1rem;
         cursor: pointer;
-        box-shadow: 0 0 0.5rem var(--text-color);
+        color: var(--text-color);
+        transition: 0.1s;
+        user-select: none;
+        box-shadow: 0 0 1rem var(--text-color);
+        text-shadow: 0 0 1rem var(--text-color);
+    }
+
+    .dotsBox .active, .dotsBox.dot:hover{
+        border-color: var(--third-text-color);
+        box-shadow: 0 0 1rem var(--third-text-color);
+    }
+
+    .mySlider {
+        position: absolute;
+        width: 70%;
+        height: 45%;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        display: none;
+        overflow: hidden;
+    }
+
+    .mySlider img {
+        width: 100%;
+        height: 100%;
+        transform: scale(1, 1);
+
+        -webkit-animation-name: zoomin;
+        -webkit-animation-duration: 30s;
+        animation-name: zoomin;
+        animation-duration: 30s;
+    }
+
+    @-webkit-keyframes zoomin {
+        from{
+            transform: scale(1,1);
+        }to{
+             transform: scale(1.8, 1.8)
+         }
+    }
+
+    @keyframes zoomin {
+        from{
+            transform: scale(1,1);
+        }to{
+             transform: scale(1.8, 1.8)
+         }
+    }
+
+    .txt {
+        position: absolute;
+        color: var(--text-color);
+        letter-spacing: 0.1rem;
+        line-height: 2rem;
+        top: 27%;
+        left: 11%;
+
+        -webkit-animation-name: posi;
+        -webkit-animation-duration: 3s;
+        animation-name: posi;
+        animation-duration: 3s;
+        z-index: 100;
+    }
+
+    @-webkit-keyframes posi {
+        from{
+            left: 30%;
+        }to {
+             left: 11%;
+         }
+    }
+    @keyframes posi {
+        from{
+            left: 30%;
+        }to{
+             left: 11%;
+         }
+    }
+
+    .txt h1 {
+        color: var(--third-text-color);
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.9rem;
+    }
+
+    .txt p {
+        font-family: "Public Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .txt a {
+        font-family: "Public Sans", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.7rem;
+        color: var(--third-text-color);
+        border-bottom: 2px solid var(--third-text-color);
+        margin-left: 0.2rem;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 680px) {
+
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        font-size: 3.5rem;
+        padding: 1rem;
+        cursor: pointer;
+        color: var(--text-color);
+        transition: 0.1s;
+        user-select: none;
+        box-shadow: 0 0 1rem var(--text-color);
+        text-shadow: 0 0 1rem var(--text-color);
+    }
+
+    .dotsBox .active, .dotsBox.dot:hover{
+        border-color: var(--third-text-color);
+        box-shadow: 0 0 1rem var(--third-text-color);
+    }
+
+    .mySlider {
+        position: absolute;
+        width: 70%;
+        height: 45%;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        display: none;
+        overflow: hidden;
+    }
+
+    .mySlider img {
+        width: 100%;
+        height: 100%;
+        transform: scale(1, 1);
+
+        -webkit-animation-name: zoomin;
+        -webkit-animation-duration: 30s;
+        animation-name: zoomin;
+        animation-duration: 30s;
+    }
+
+    @-webkit-keyframes zoomin {
+        from{
+            transform: scale(1,1);
+        }to{
+             transform: scale(1.8, 1.8)
+         }
+    }
+
+    @keyframes zoomin {
+        from{
+            transform: scale(1,1);
+        }to{
+             transform: scale(1.8, 1.8)
+         }
+    }
+
+    .txt {
+        position: absolute;
+        color: var(--text-color);
+        letter-spacing: 0.1rem;
+        line-height: 2rem;
+        top: 27%;
+        left: 11%;
+
+        -webkit-animation-name: posi;
+        -webkit-animation-duration: 3s;
+        animation-name: posi;
+        animation-duration: 3s;
+        z-index: 100;
+    }
+
+    @-webkit-keyframes posi {
+        from{
+            left: 30%;
+        }to {
+             left: 11%;
+         }
+    }
+    @keyframes posi {
+        from{
+            left: 30%;
+        }to{
+             left: 11%;
+         }
+    }
+
+    .txt h1 {
+        color: var(--third-text-color);
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.9rem;
+    }
+
+    .txt p {
+        font-family: "Public Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .txt a {
+        font-family: "Public Sans", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 0.7rem;
+        color: var(--third-text-color);
+        border-bottom: 2px solid var(--third-text-color);
+        margin-left: 0.2rem;
     }
 }

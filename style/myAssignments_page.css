@@ -192,3 +192,86 @@
         transform: scale(1.8, 1.8)
     }
 }
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 1200px) {
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        font-size: 4.3rem;
+        padding: 1.5rem;
+        cursor: pointer;
+        color: var(--text-color);
+        transition: 0.1s;
+        user-select: none;
+        box-shadow: 0 0 1rem var(--text-color);
+        text-shadow: 0 0 1rem var(--text-color);
+    }
+
+    .dotsBox .dot {
+        display: inline-block;
+        width: 1.3rem;
+        height: 1.3rem;
+        border: 5px solid var(--text-color);
+        border-radius: 50%;
+        margin: 0 1rem;
+        cursor: pointer;
+        box-shadow: 0 0 0.5rem var(--text-color);
+    }
+
+    .dotsBox .active, .dotsBox.dot:hover{
+         border-color: var(--third-text-color);
+         box-shadow: 0 0 1rem var(--third-text-color);
+    }
+
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 1000px) {
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        font-size: 4rem;
+        padding: 1.1rem;
+        cursor: pointer;
+        color: var(--text-color);
+        transition: 0.1s;
+        user-select: none;
+        box-shadow: 0 0 1rem var(--text-color);
+        text-shadow: 0 0 1rem var(--text-color);
+    }
+
+    .prev:hover, .next:hover {
+        color: var(--third-text-color);
+        box-shadow: 0 0 1rem var(--third-text-color);
+        text-shadow: 0 0 1rem var(--third-text-color);
+    }
+
+    .next {
+        right: 0;
+    }
+
+    .dotsBox {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        bottom: 3.3rem;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .dotsBox .dot {
+        display: inline-block;
+        width: 1.3rem;
+        height: 1.3rem;
+        border: 5px solid var(--text-color);
+        border-radius: 50%;
+        margin: 0 1rem;
+        cursor: pointer;
+        box-shadow: 0 0 0.5rem var(--text-color);
+    }
+}

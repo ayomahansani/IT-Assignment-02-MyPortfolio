@@ -2077,14 +2077,14 @@ header.scrolled {
     }
 
     .header {
-        height: 4%;
+        height: 8%;
 
-        margin-left: 92%;
+        margin-left: 84%;
 
         background-color: var(--second-bg-color);
         opacity: 0.8;
         backdrop-filter: blur(10px);
-        box-shadow: 16px 12px 1px rgba(255, 255, 255, 0.28);
+        box-shadow: 12px 10px 1px rgba(255, 255, 255, 0.28);
     }
 
     /* navigation menu */
@@ -2099,8 +2099,8 @@ header.scrolled {
 
     .mobile-nav .menu-icon {
         position: fixed;
-        top: 15%;
-        left: 2%;
+        top: 5%;
+        left: 0.9%;
         transition: all 400ms ease;
         z-index: 5;
     }
@@ -2121,13 +2121,13 @@ header.scrolled {
     }
 
     .mobile-menu-container.active {
-        right: 80%;
+        right: 84%;
     }
 
     .mobile-menu-container .close-icon {
         position: fixed;
-        top: 34%;
-        left: 6%;
+        top: 30%;
+        left: 5%;
         opacity: 0;
         pointer-events: none;
         transition: all 400ms ease;
@@ -2305,14 +2305,14 @@ header.scrolled {
     }
 
     .header {
-        height: 4%;
+        height: 8%;
 
-        margin-left: 93%;
+        margin-left: 82%;
 
         background-color: var(--second-bg-color);
         opacity: 0.8;
         backdrop-filter: blur(10px);
-        box-shadow: 16px 12px 1px rgba(255, 255, 255, 0.28);
+        box-shadow: 12px 10px 1px rgba(255, 255, 255, 0.28);
     }
 
     /* navigation menu */
@@ -2327,8 +2327,8 @@ header.scrolled {
 
     .mobile-nav .menu-icon {
         position: fixed;
-        top: 9%;
-        left: 1.5%;
+        top: 5%;
+        left: 0.6%;
         transition: all 400ms ease;
         z-index: 5;
     }
@@ -2349,13 +2349,13 @@ header.scrolled {
     }
 
     .mobile-menu-container.active {
-        right: 79%;
+        right: 82%;
     }
 
     .mobile-menu-container .close-icon {
         position: fixed;
-        top: 33%;
-        left: 6%;
+        top: 30%;
+        left: 5.5%;
         opacity: 0;
         pointer-events: none;
         transition: all 400ms ease;
@@ -2403,7 +2403,7 @@ header.scrolled {
 
         position: absolute;
 
-        top: 5%;
+        top: 10%;
         left: 9%;
 
         animation: hello-world 2s infinite alternate;
@@ -2457,7 +2457,7 @@ header.scrolled {
 
         position: absolute;
 
-        top: 82%;
+        top: 84%;
         left: 7%;
 
     }
@@ -2470,7 +2470,7 @@ header.scrolled {
     .home-page-photo {
         position: absolute;
 
-        top: 23%;
+        top: 40%;
         left: 25%;
 
         transform: scale(0.95);
@@ -2489,7 +2489,7 @@ header.scrolled {
     /*}*/
 
     .left-side-contacts {
-        width: 9.5vw;
+        width: 10vw;
         height: 30vh;
 
         position: absolute;
@@ -2509,9 +2509,9 @@ header.scrolled {
     }
 
     .left-side-contacts .contacts img {
-        width: 50%;
-        height: 50%;
-        margin: 25%;
+        width: 52%;
+        height: 52%;
+        margin: 37%;
     }
 
     .left-side-contacts .contacts img:hover {
@@ -2533,14 +2533,14 @@ header.scrolled {
     }
 
     .header {
-        height: 3%;
+        height: 8%;
 
-        margin-left: 94%;
+        margin-left: 80%;
 
         background-color: var(--second-bg-color);
         opacity: 0.8;
         backdrop-filter: blur(10px);
-        box-shadow: 16px 12px 1px rgba(255, 255, 255, 0.28);
+        box-shadow: 12px 10px 1px rgba(255, 255, 255, 0.28);
     }
 
     /* navigation menu */
@@ -2555,7 +2555,7 @@ header.scrolled {
 
     .mobile-nav .menu-icon {
         position: fixed;
-        top: 4%;
+        top: 5%;
         left: 0.3%;
         transition: all 400ms ease;
         z-index: 5;
@@ -2577,13 +2577,13 @@ header.scrolled {
     }
 
     .mobile-menu-container.active {
-        right: 79%;
+        right: 80%;
     }
 
     .mobile-menu-container .close-icon {
         position: fixed;
-        top: 32%;
-        left: 5%;
+        top: 30%;
+        left: 5.5%;
         opacity: 0;
         pointer-events: none;
         transition: all 400ms ease;
@@ -2601,7 +2601,7 @@ header.scrolled {
     }
 
     .mobile-menu-container ul li {
-        margin: 25px 0;
+        margin: 40px 0;
         text-align: center;
     }
 
@@ -2609,7 +2609,7 @@ header.scrolled {
         text-decoration: none;
         font-family: "Kameron", serif;
         font-style: normal;
-        font-size: 0.9rem;
+        font-size: 1.1rem;
         color: var(--second-text-color);
         font-weight: 700;
         transition: 0.3s ease-in-out;
@@ -2625,13 +2625,13 @@ header.scrolled {
     .hello-world {
         font-family: "Audiowide", sans-serif;
         font-style: normal;
-        font-size: 2.5rem;
+        font-size: 3.1rem;
         color: var(--third-text-color);
         opacity: 0.9;
 
         position: absolute;
 
-        top: 4%;
+        top: 10%;
         left: 9%;
 
         animation: hello-world 2s infinite alternate;
@@ -2650,7 +2650,7 @@ header.scrolled {
         font-family: "Otomanopee One", serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         color: var(--text-color);
         opacity: 0.8;
 
@@ -2659,7 +2659,7 @@ header.scrolled {
 
         position: absolute;
 
-        top: 25%;
+        top: 30%;
         left: 10%;
     }
 
@@ -2671,7 +2671,7 @@ header.scrolled {
         font-family: "Otomanopee One", serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         color: var(--text-color);
     }
 
@@ -2679,14 +2679,14 @@ header.scrolled {
         font-family: "Radley", serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         color: var(--text-color);
         opacity: 0.6;
 
         position: absolute;
 
-        top: 70%;
-        left: 6%;
+        top: 84%;
+        left: 7%;
 
     }
 
@@ -2698,10 +2698,10 @@ header.scrolled {
     .home-page-photo {
         position: absolute;
 
-        top: 18%;
-        left: 7%;
+        top: 40%;
+        left: 17%;
 
-        transform: scale(0.8);
+        transform: scale(0.95);
 
         opacity: 0.6;
 
@@ -2717,12 +2717,12 @@ header.scrolled {
     /*}*/
 
     .left-side-contacts {
-        width: 9.4vw;
-        height: 25vh;
+        width: 12vw;
+        height: 27vh;
 
         position: absolute;
 
-        top: 41%;
+        top: 47%;
 
         background-color: var(--second-bg-color);
         opacity: 0.8;
@@ -2737,9 +2737,9 @@ header.scrolled {
     }
 
     .left-side-contacts .contacts img {
-        width: 50%;
-        height: 50%;
-        margin: 25%;
+        width: 52%;
+        height: 52%;
+        margin: 30%;
     }
 
     .left-side-contacts .contacts img:hover {

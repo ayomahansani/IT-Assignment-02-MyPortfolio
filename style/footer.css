@@ -851,7 +851,7 @@
 
         position: absolute;
 
-        width: 70%;
+        width: 81%;
         height: 40%;
 
         top: 20%;
@@ -864,7 +864,7 @@
 
         position: absolute;
 
-        width: 60%;
+        width: 100%;
         height: 40%;
 
         top: 28%;
@@ -873,10 +873,26 @@
         margin: auto;
     }
 
+    .footer-left h5, .footer-right h5 {
+        font-family: "Markazi Text", serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1.2rem;
+    }
+
+    .footer-left h6, .footer-right h6 {
+        font-family: "Italianno", cursive;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1.7rem;
+
+        margin-top: 0.8rem;
+    }
+
     .footer-bottom {
         position: absolute;
 
-        width: 40%;
+        width: 100%;
         height: 17%;
 
         top: 90%;
@@ -889,13 +905,13 @@
         position: absolute;
 
         padding: 0.5em;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         opacity: 0.8;
     }
 
     .footer-contact img {
-        width: 9%;
-        height: 35%;
+        width: 13%;
+        height: 30%;
     }
 }
 

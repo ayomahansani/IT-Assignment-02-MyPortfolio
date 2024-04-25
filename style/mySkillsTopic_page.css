@@ -214,10 +214,11 @@
 
     .mySkillsTopic-img img {
         position: absolute;
-        width: 100vw;
-        height: 100vh;
+        width: 80%;
+        height: 40%;
 
-        transform: scale(1.5);
+        transform: scale(4);
+        top: 30%;
 
         opacity: 0.15;
     }

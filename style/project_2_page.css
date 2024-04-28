@@ -849,9 +849,9 @@
 
     .project-2-section .project-2-section-background-photo {
         position: absolute;
-        width: 40%;
-        height: 15%;
-        transform: scale(7);
+        width: 48%;
+        height: 25%;
+        transform: scale(4);
         left: 0;
         right: 0;
         bottom: 0;

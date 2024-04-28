@@ -3726,14 +3726,14 @@
 
     .aboutMe-left-side .myPhoto {
         position: absolute;
-        width: 33%;
-        height: 85%;
+        width: 42%;
+        height: 70%;
         border-radius: 100%;
         background-color: grey;
         box-shadow: 7px 7px 3px rgba(255, 255, 255, 0.21);
 
-        bottom: 43%;
-        right: 53%;
+        bottom: 70%;
+        right: 50%;
 
     }
 
@@ -3874,21 +3874,22 @@
 
     .aboutMe-left-side .myCV {
         position: absolute;
-        width: 50%;
-        height: 45%;
+        width: 55%;
+        height: 35%;
         border-left: 4px solid var(--second-bg-color);
+        margin: 0;
         /*background-color: grey;*/
         opacity: 0.7;
 
-        top: 40%;
-        left: 50%;
+        top: 53%;
+        left: 45%;
     }
 
     .aboutMe-left-side .myCV p{
         font-family: "Tapestry", serif;
         font-weight: 200;
         font-style: normal;
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         color: var(--text-color);
         margin-left: 0.5rem;
     }
@@ -3896,7 +3897,7 @@
     .aboutMe-left-side .myCV p:nth-child(2){
         position: relative;
         top: 25%;
-        margin-top: 1.2rem;
+        /*margin-top: 1.2rem;*/
     }
 
     .aboutMe-left-side .myCV p:nth-child(1){

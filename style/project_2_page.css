@@ -845,11 +845,11 @@
 
 /* -------------------------------------------------------- */
 
-@media (max-width: 325px) {
+@media (max-width: 320px) {
 
     .project-2-section .project-2-section-background-photo {
         position: absolute;
-        width: 48%;
+        width: 54%;
         height: 25%;
         transform: scale(4);
         left: 0;

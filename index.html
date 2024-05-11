@@ -33,6 +33,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!--  End of Google Fonts  -->
 
+
     <!--  Link stylesheets  -->
     <link rel="stylesheet" href="assets/normalize-css.css">
     <link rel="stylesheet" href="style/home_page.css">
@@ -50,6 +51,15 @@
     <link rel="stylesheet" href="style/contactMe_page.css">
     <link rel="stylesheet" href="style/myAssignments_page.css">
     <!--  End of Link stylesheets  -->
+
+
+    <!--  Link AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--  End of Link AOS CSS-->
+
+    <!--  Link Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--  End of Link Animate.css -->
 
 </head>
 <body>
@@ -134,7 +144,7 @@
                 <span class="name-part">Hansani</span>
             </h2>
 
-            <p class="description">
+            <p class="description animate__animated animate__swing animate__infinite" >
                 As a dedicated software <br> engineering student, I am <br> passionate about crafting <br> innovative solutions and <br> developing my skills in the <br> ever-evolving world of <br> technology.
             </p>
             <!-- End of middle things -->
@@ -163,7 +173,9 @@
 
                 <img src="assets/images/aboutMeTopicBackground.jpg" title="about me topic" alt="about me topic">
 
-                <div class="title">
+                <div class="title" data-aos="flip-left"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="2000">
                     <h1>About Me</h1>
                 </div>
             </div>
@@ -260,7 +272,9 @@
 
                 <img src="assets/images/mySkillsTopicBackground.jpg" title="my skills topic" alt="my skills topic">
 
-                <div class="title">
+                <div class="title" data-aos="flip-left"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="2000">
                     <h1>My Skills</h1>
                 </div>
 
@@ -398,7 +412,9 @@
 
                 <img src="assets/images/myProjectsTopicBackground.jpg" title="my projects topic" alt="my projects topic">
 
-                <div class="title">
+                <div class="title" data-aos="flip-left"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="2000">
                     <h1>My Projects</h1>
                 </div>
 
@@ -643,7 +659,9 @@
 
                 <img src="assets/images/myAssignmentsTopicBackground.jpg" title="my assignments topic" alt="my assignments topic">
 
-                <div class="title">
+                <div class="title" data-aos="flip-left"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="2000">
                     <h1>My Assignments</h1>
                 </div>
 
@@ -863,7 +881,17 @@
 </footer>
 <!----------  End of Footer  ---------->
 
+<!-- Plug the js file -->
 <script src="js/main.js"></script>
+<!-- END OF Plug the js file -->
+
+<!--  Import AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--  End of Import AOS JS-->
+
+<script>
+    AOS.init();
+</script>
 
 </body>
 </html>

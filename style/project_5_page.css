@@ -476,7 +476,7 @@
 /* -------------------------------------------------------- */
 
 @media (max-width: 850px) {
-    .project-3-section .project-3-section-background-photo {
+    .project-5-section .project-5-section-background-photo {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -488,10 +488,10 @@
         margin: auto;
     }
 
-    .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-photos {
+    .project-5-section .project-5-section-left-side .project-5-section-left-side-content .project-5-photos {
         position: absolute;
         width: 81%;
-        height: 21%;
+        height: 23%;
         background-color: rgba(37, 37, 37, 0.61);
         opacity: 0.8;
         border: 4px solid black;
@@ -508,7 +508,7 @@
 /* -------------------------------------------------------- */
 
 @media (max-width: 800px) {
-    .project-3-section .project-3-section-background-photo {
+    .project-5-section .project-5-section-background-photo {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -520,10 +520,10 @@
         margin: auto;
     }
 
-    .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-photos {
+    .project-5-section .project-5-section-left-side .project-5-section-left-side-content .project-5-photos {
         position: absolute;
         width: 81%;
-        height: 20%;
+        height: 22%;
         background-color: rgba(37, 37, 37, 0.61);
         opacity: 0.8;
         border: 4px solid black;
@@ -541,7 +541,7 @@
 
 @media (max-width: 768px) {
 
-    .project-3-section .project-3-section-background-photo {
+    .project-5-section .project-5-section-background-photo {
         position: absolute;
         width: 50%;
         height: 40%;
@@ -553,7 +553,7 @@
         margin: auto;
     }
 
-    .project-3-section .project-3-section-after-image {
+    .project-5-section .project-5-section-after-image {
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -561,7 +561,7 @@
         height: 100%;
     }
 
-    .project-3-section .project-3-section-right-side {
+    .project-5-section .project-5-section-right-side {
         position: absolute;
         width: 100%;
         height: 50%;
@@ -570,7 +570,7 @@
         opacity: 0.6;
     }
 
-    .project-3-section .project-3-section-left-side-before {
+    .project-5-section .project-5-section-left-side-before {
         position: absolute;
         width: 100%;
         height: 50%;
@@ -579,14 +579,14 @@
         opacity: 0.7;
     }
 
-    .project-3-section .project-3-section-left-side {
+    .project-5-section .project-5-section-left-side {
         position: absolute;
         width: 100%;
         height: 50%;
         top: 0;
     }
 
-    .project-3-section .project-3-section-left-side .project-3-section-left-side-content {
+    .project-5-section .project-5-section-left-side .project-5-section-left-side-content {
         position: absolute;
         width: 70%;
         height: 100%;
@@ -598,7 +598,7 @@
         color: white;
     }
 
-    .project-3-section .project-3-section-left-side .project-3-section-left-side-content h1 {
+    .project-5-section .project-5-section-left-side .project-5-section-left-side-content h1 {
         position: absolute;
         top: 8%;
         font-family: "Abril Fatface", serif;
@@ -609,7 +609,7 @@
         z-index: 9000;
     }
 
-    .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details {
+    .project-5-section .project-5-section-left-side .project-5-section-left-side-content .project-5-details {
         position: absolute;
         top: 40%;
         z-index: 1000;
@@ -619,7 +619,7 @@
         justify-content: space-between;
     }
 
-    .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h2 {
+    .project-5-section .project-5-section-left-side .project-5-section-left-side-content .project-5-details h2 {
         font-family: "Abril Fatface", serif;
         font-weight: 400;
         font-style: normal;
@@ -628,7 +628,7 @@
         text-shadow: 4px 6px 2px rgba(255, 255, 255, 0.25);
     }
 
-    .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h4 {
+    .project-5-section .project-5-section-left-side .project-5-section-left-side-content .project-5-details h4 {
         font-family: "Abel", sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -636,7 +636,7 @@
         color: var(--second-text-color);
     }
 
-    .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-details h6 {
+    .project-5-section .project-5-section-left-side .project-5-section-left-side-content .project-5-details h6 {
         font-family: "Athiti", sans-serif;
         font-weight: 300;
         font-style: normal;
@@ -644,7 +644,7 @@
         color: #545454;
     }
 
-    .project-3-section .project-3-section-left-side .project-3-section-left-side-content a {
+    .project-5-section .project-5-section-left-side .project-5-section-left-side-content a {
         position: absolute;
         top: 80%;
         z-index: 1000;
@@ -655,7 +655,7 @@
         color: white;
     }
 
-    .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-photos {
+    .project-5-section .project-5-section-left-side .project-5-section-left-side-content .project-5-photos {
         position: absolute;
         width: 80%;
         height: 65%;
@@ -672,21 +672,21 @@
         text-align: center;
     }
 
-    .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-photos .project-3-photos-left {
+    .project-5-section .project-5-section-left-side .project-5-section-left-side-content .project-5-photos .project-5-photos-left {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
     }
 
-    .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-photos .project-3-photos-right {
+    .project-5-section .project-5-section-left-side .project-5-section-left-side-content .project-5-photos .project-5-photos-right {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
     }
 
-    .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-photos img {
+    .project-5-section .project-5-section-left-side .project-5-section-left-side-content .project-5-photos img {
         width: 85%;
         height: 90%;
         border: 2px solid black;
@@ -695,7 +695,7 @@
         opacity: 0.8;
     }
 
-    .project-3-section .project-3-section-left-side .project-3-section-left-side-content .project-3-photos img:hover {
+    .project-5-section .project-5-section-left-side .project-5-section-left-side-content .project-5-photos img:hover {
         transform: scale(1.1);
         transition: 1.5s ease-in-out;
     }

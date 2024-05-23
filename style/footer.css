@@ -855,7 +855,6 @@
         height: 40%;
 
         top: 20%;
-        left: 0;
         right: 0;
         margin: auto;
     }
@@ -864,7 +863,7 @@
 
         position: absolute;
 
-        width: 60%;
+        width: 70%;
         height: 40%;
 
         top: 28%;
@@ -894,9 +893,26 @@
     }
 
     .footer-contact img {
-        width: 9%;
+        width: 10%;
         height: 35%;
     }
+
+    .footer-left h5, .footer-right h5 {
+        font-family: "Markazi Text", serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1.2rem;
+    }
+
+    .footer-left h6, .footer-right h6 {
+        font-family: "Italianno", cursive;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1.7rem;
+
+        margin-top: 0.8rem;
+    }
+
 }
 
 /* ----------------------------------------- */

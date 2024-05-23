@@ -845,6 +845,62 @@
 
 /* ----------------------------------------- */
 
+@media (max-width: 500px) {
+
+    .footer-left {
+
+        position: absolute;
+
+        width: 70%;
+        height: 40%;
+
+        top: 20%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-right {
+
+        position: absolute;
+
+        width: 60%;
+        height: 40%;
+
+        top: 28%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-bottom {
+        position: absolute;
+
+        width: 40%;
+        height: 17%;
+
+        top: 90%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .footer-bottom p {
+        position: absolute;
+
+        padding: 0.5em;
+        font-size: 0.7rem;
+        opacity: 0.8;
+    }
+
+    .footer-contact img {
+        width: 9%;
+        height: 35%;
+    }
+}
+
+/* ----------------------------------------- */
+
 @media (max-width: 425px) {
 
     .footer-left {

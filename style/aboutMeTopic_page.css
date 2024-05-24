@@ -491,7 +491,7 @@
         color: var(--second-text-color);
         z-index: 1000;
         text-align: center;
-        text-shadow: 40px 55px 10px rgba(0, 0, 0, 0.4);
+        text-shadow: 40px 45px 8px rgba(0, 0, 0, 0.4);
 
         top: 0;
         bottom: 0;
@@ -545,7 +545,7 @@
         color: var(--second-text-color);
         z-index: 1000;
         text-align: center;
-        text-shadow: 35px 55px 10px rgba(0, 0, 0, 0.4);
+        text-shadow: 40px 45px 8px rgba(0, 0, 0, 0.4);
 
         top: 0;
         bottom: 0;
@@ -599,7 +599,7 @@
         color: var(--second-text-color);
         z-index: 1000;
         text-align: center;
-        text-shadow: 30px 55px 10px rgba(0, 0, 0, 0.4);
+        text-shadow: 40px 45px 8px rgba(0, 0, 0, 0.4);
 
         top: 0;
         bottom: 0;

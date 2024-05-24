@@ -2133,7 +2133,7 @@
 
     .contactMe-section .contactMe-section-right-side form .form-firstNameLastName {
         position: absolute;
-        width: 80%;
+        width: 79%;
         height: 12%;
         top: 4%;
         left: 0;
@@ -2142,6 +2142,20 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+    }
+
+    .contactMe-section .contactMe-section-right-side form .form-firstNameLastName .form-firstName {
+        position: absolute;
+        width: 45%;
+        height: 100%;
+        left: 0;
+    }
+
+    .contactMe-section .contactMe-section-right-side form .form-firstNameLastName .form-lastName {
+        position: absolute;
+        width: 45%;
+        height: 100%;
+        right: 0;
     }
 
     .contactMe-section .contactMe-section-right-side form .form-email {
@@ -2359,7 +2373,7 @@
 
     .contactMe-section .contactMe-section-right-side form .form-firstNameLastName {
         position: absolute;
-        width: 80%;
+        width: 79%;
         height: 12%;
         top: 4%;
         left: 0;
@@ -2368,6 +2382,20 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+    }
+
+    .contactMe-section .contactMe-section-right-side form .form-firstNameLastName .form-firstName {
+        position: absolute;
+        width: 45%;
+        height: 100%;
+        left: 0;
+    }
+
+    .contactMe-section .contactMe-section-right-side form .form-firstNameLastName .form-lastName {
+        position: absolute;
+        width: 45%;
+        height: 100%;
+        right: 0;
     }
 
     .contactMe-section .contactMe-section-right-side form .form-email {
@@ -2430,7 +2458,7 @@
         font-family: "Abhaya Libre", serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 1.1rem;
+        font-size: 1rem;
         margin-bottom: 0.5rem;
     }
 
@@ -2438,7 +2466,7 @@
         font-family: "Abhaya Libre", serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 1.1rem;
+        font-size: 0.9rem;
         box-shadow: 0 4px 2px rgba(0, 0, 0, 0.25);
         opacity: 0.6;
     }
@@ -2585,7 +2613,7 @@
 
     .contactMe-section .contactMe-section-right-side form .form-firstNameLastName {
         position: absolute;
-        width: 82%;
+        width: 79%;
         height: 12%;
         top: 4%;
         left: 0;
@@ -2594,6 +2622,20 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+    }
+
+    .contactMe-section .contactMe-section-right-side form .form-firstNameLastName .form-firstName {
+        position: absolute;
+        width: 45%;
+        height: 100%;
+        left: 0;
+    }
+
+    .contactMe-section .contactMe-section-right-side form .form-firstNameLastName .form-lastName {
+        position: absolute;
+        width: 45%;
+        height: 100%;
+        right: 0;
     }
 
     .contactMe-section .contactMe-section-right-side form .form-email {
@@ -2656,7 +2698,7 @@
         font-family: "Abhaya Libre", serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 1.1rem;
+        font-size: 0.9rem;
         margin-bottom: 0.5rem;
     }
 
@@ -2664,7 +2706,7 @@
         font-family: "Abhaya Libre", serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 1.1rem;
+        font-size: 0.8rem;
         box-shadow: 0 4px 2px rgba(0, 0, 0, 0.25);
         opacity: 0.6;
     }

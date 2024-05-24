@@ -1,4 +1,4 @@
-// ------------- Start Home Page -------------
+// ----------------------- Start Home Page -----------------------
 
 // header
 const header = document.querySelector("header");
@@ -30,10 +30,11 @@ closeIcon.addEventListener("click", () => {
 
 // end menu icon
 
-// ------------- End Home Page -------------
+// ----------------------- End Home Page -----------------------
 
 
-// ------------- Start My Assignments Page -------------
+
+// ----------------------- Start My Assignments Page -----------------------
 
 const myslide = document.querySelectorAll('.mySlider'),
     dot = document.querySelectorAll('.dot');
@@ -84,4 +85,68 @@ function slidefun(n){
     dot[counter - 1].classList.add("active");
 }
 
-// ------------- End My Assignments Page -------------
+// ----------------------- End My Assignments Page -----------------------
+
+
+
+/*
+
+// ----------------------- Start Contact Me Page -----------------------
+
+
+// Function to clear form fields
+function clearForm() {
+    document.getElementById("contactForm").reset();
+}
+
+
+// Add event listener to form submission
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent default form submission
+
+    // Send form data asynchronously
+    fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: new FormData(event.target)
+    })
+        .then(response => {
+            if (response.ok) {
+                // If response is successful, clear form fields
+                clearForm();
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Form submitted successfully!',
+                    background: 'rgb(0,0,0)',
+                    color: 'rgb(255,255,255)',
+                    confirmButtonColor: '#B99292',
+                    iconColor: '#B99292',
+                });
+            } else {
+                // Handle error response
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: "Error submitting form!",
+                    background: 'rgb(0,0,0)',
+                    color: 'rgb(255,255,255)',
+                    confirmButtonColor: '#B99292',
+                    iconColor: '#B99292',
+                });
+            }
+        })
+        .catch(error => {
+            console.error("Error:", error);
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: "Error submitting form!",
+                background: 'rgb(0,0,0)',
+                color: 'rgb(255,255,255)',
+                confirmButtonColor: '#B99292',
+                iconColor: '#B99292',
+            });
+        });
+});
+
+
+// ----------------------- End Contact Me Page -----------------------*/

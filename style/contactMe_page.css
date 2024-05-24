@@ -229,6 +229,7 @@
     color: var(--text-color);
     background-color: black;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 
 .contactMe-section .contactMe-section-right-side form .form-button button:hover {
@@ -253,6 +254,14 @@
     opacity: 0.6;
 }
 
+.contactMe-section .contactMe-section-right-side form input:focus {
+    border: 2px solid black;
+}
+
+.contactMe-section .contactMe-section-right-side form input:hover {
+    border: 2px solid black;
+}
+
 .contactMe-section .contactMe-section-right-side form textarea {
     font-family: "Abhaya Libre", serif;
     font-weight: 400;
@@ -260,6 +269,14 @@
     font-size: 1.1rem;
     box-shadow: 0 4px 2px rgba(0, 0, 0, 0.25);
     opacity: 0.6;
+}
+
+.contactMe-section .contactMe-section-right-side form textarea:focus {
+    border: 2px solid black;
+}
+
+.contactMe-section .contactMe-section-right-side form textarea:hover {
+    border: 2px solid black;
 }
 
 .contactMe-section .contactMe-section-right-side form #firstname {

@@ -166,6 +166,12 @@
     margin-left: 0.2rem;
 }
 
+.txt a:hover {
+    color: #B99292FF;
+    border-bottom: 2px solid #B99292FF;
+    box-shadow: 0 0 1rem #B99292FF;
+}
+
 .mySlider img {
     width: 100%;
     height: 100%;
@@ -1293,7 +1299,7 @@
 
 /* -------------------------------------------------------- */
 
-@media (max-width: 325px) {
+@media (max-width: 320px) {
 
     .prev, .next {
         position: absolute;

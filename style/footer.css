@@ -142,20 +142,8 @@
         left: 8%;
     }
 
-    .footer-bottom {
-        position: absolute;
-
-        width: 19%;
-        height: 17%;
-
-        top: 90%;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
     .footer-contact img {
-        width: 7%;
+        width: 7.5%;
         height: 55%;
     }
 
@@ -167,7 +155,7 @@
 
     .footer-contact img {
         width: 6.5%;
-        height: 45%;
+        height: 47%;
     }
 }
 
@@ -175,17 +163,11 @@
 
 @media (max-width: 1200px) {
 
-    .footer-bottom {
-        position: absolute;
-
-        width: 20%;
-        height: 17%;
-
-        top: 90%;
-        left: 0;
-        right: 0;
-        margin: auto;
+    .footer-contact img {
+        width: 7%;
+        height: 47%;
     }
+
 }
 
 /* ----------------------------------------- */
@@ -213,43 +195,19 @@
     }
 
     .footer-contact img {
-        width: 6%;
-        height: 40%;
-    }
-
-    .footer-bottom {
-        position: absolute;
-
-        width: 22%;
-        height: 17%;
-
-        top: 90%;
-        left: 0;
-        right: 0;
-        margin: auto;
+        width: 7.2%;
+        height: 47%;
     }
 
 }
 
 /* ----------------------------------------- */
 
-@media (max-width: 1035px) {
-
-    .footer-bottom {
-        position: absolute;
-
-        width: 29%;
-        height: 17%;
-
-        top: 90%;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
+@media (max-width: 1110px) {
 
     .footer-contact img {
-        width: 7%;
-        height: 40%;
+        width: 7.3%;
+        height: 47%;
     }
 
 }
@@ -299,18 +257,6 @@
         height: 40%;
     }
 
-    .footer-bottom {
-        position: absolute;
-
-        width: 28%;
-        height: 17%;
-
-        top: 90%;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
 }
 
 /* ----------------------------------------- */
@@ -354,20 +300,8 @@
     }
 
     .footer-contact img {
-        width: 7%;
-        height: 36%;
-    }
-
-    .footer-bottom {
-        position: absolute;
-
-        width: 26%;
-        height: 17%;
-
-        top: 90%;
-        left: 0;
-        right: 0;
-        margin: auto;
+        width: 7.4%;
+        height: 40%;
     }
 
 }
@@ -403,27 +337,15 @@
     }
 
     .footer-contact img {
-        width: 7%;
-        height: 36%;
-    }
-
-    .footer-bottom {
-        position: absolute;
-
-        width: 30%;
-        height: 17%;
-
-        top: 90%;
-        left: 0;
-        right: 0;
-        margin: auto;
+        width: 7.7%;
+        height: 40%;
     }
 
 }
 
 /* ----------------------------------------- */
 
-@media (max-width: 798px) {
+@media (max-width: 855px) {
 
     .footer-left {
         position: absolute;
@@ -462,20 +384,8 @@
     }
 
     .footer-contact img {
-        width: 7%;
-        height: 36%;
-    }
-
-    .footer-bottom {
-        position: absolute;
-
-        width: 30%;
-        height: 17%;
-
-        top: 90%;
-        left: 0;
-        right: 0;
-        margin: auto;
+        width: 8%;
+        height: 40%;
     }
 
 }
@@ -488,10 +398,10 @@
 
         position: absolute;
 
-        width: 50%;
+        width: 100%;
         height: 40%;
 
-        top: 20%;
+        top: 18%;
         left: 0;
         right: 0;
         margin: auto;
@@ -501,32 +411,19 @@
 
         position: absolute;
 
-        width: 50%;
+        width: 100%;
         height: 40%;
 
-        top: 28%;
+        top: 26%;
         left: 0;
         right: 0;
         margin: auto;
-    }
-
-    .footer-left h5 {
-        position: absolute;
-        bottom: 90%;
     }
 
     .footer-right h5, .footer-right h6, .footer-left h5, .footer-left h6 {
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    .footer-left h6 {
-        padding-top: 3.5rem;
-    }
-
-    .footer-right h6 {
-        padding-top: 2.5rem;
     }
 
     .footer-left h5, .footer-right h5 {
@@ -542,27 +439,7 @@
         font-style: normal;
         font-size: 1.7rem;
 
-        margin-top: 0.8rem;
-    }
-
-    .footer-bottom {
-        position: absolute;
-
-        width: 30%;
-        height: 17%;
-
-        top: 90%;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    .footer-bottom p {
-        position: absolute;
-
-        padding: 0.5em;
-        font-size: 0.7rem;
-        opacity: 0.8;
+        margin-top: 3rem;
     }
 
     .footer-contact {
@@ -582,95 +459,14 @@
     }
 
     .footer-contact img {
-        width: 7%;
-        height: 38%;
+        width: 7.1%;
+        height: 39%;
     }
 }
 
 /* ----------------------------------------- */
 
 @media (max-width: 745px) {
-
-    .footer-left {
-
-        position: absolute;
-
-        width: 55%;
-        height: 40%;
-
-        top: 20%;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    .footer-right {
-
-        position: absolute;
-
-        width: 50%;
-        height: 40%;
-
-        top: 28%;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    .footer-left h5 {
-        position: absolute;
-        bottom: 90%;
-    }
-
-    .footer-right h5, .footer-right h6, .footer-left h5, .footer-left h6 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .footer-left h6 {
-        padding-top: 3.5rem;
-    }
-
-    .footer-right h6 {
-        padding-top: 2.5rem;
-    }
-
-    .footer-left h5, .footer-right h5 {
-        font-family: "Markazi Text", serif;
-        font-weight: 300;
-        font-style: normal;
-        font-size: 1.3rem;
-    }
-
-    .footer-left h6, .footer-right h6 {
-        font-family: "Italianno", cursive;
-        font-weight: 300;
-        font-style: normal;
-        font-size: 1.7rem;
-
-        margin-top: 0.8rem;
-    }
-
-    .footer-bottom {
-        position: absolute;
-
-        width: 35%;
-        height: 17%;
-
-        top: 90%;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    .footer-bottom p {
-        position: absolute;
-
-        padding: 0.5em;
-        font-size: 0.7rem;
-        opacity: 0.8;
-    }
 
     .footer-contact {
         position: absolute;
@@ -698,31 +494,16 @@
 
 @media (max-width: 680px) {
 
-    .footer-left {
-
-        position: absolute;
-
-        width: 65%;
-        height: 40%;
-
-        top: 20%;
-        left: 0;
-        right: 0;
-        margin: auto;
+    .footer-contact img {
+        width: 7.5%;
+        height: 35%;
     }
 
-    .footer-right {
+}
 
-        position: absolute;
+/* ----------------------------------------- */
 
-        width: 55%;
-        height: 40%;
-
-        top: 28%;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
+@media (max-width: 632px) {
 
     .footer-contact img {
         width: 7.5%;
@@ -733,53 +514,7 @@
 
 /* ----------------------------------------- */
 
-@media (max-width: 582px) {
-
-    .footer-left {
-
-        position: absolute;
-
-        width: 70%;
-        height: 40%;
-
-        top: 20%;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    .footer-right {
-
-        position: absolute;
-
-        width: 60%;
-        height: 40%;
-
-        top: 28%;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    .footer-bottom {
-        position: absolute;
-
-        width: 40%;
-        height: 17%;
-
-        top: 90%;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    .footer-bottom p {
-        position: absolute;
-
-        padding: 0.5em;
-        font-size: 0.7rem;
-        opacity: 0.8;
-    }
+@media (max-width: 599px) {
 
     .footer-contact img {
         width: 8%;
@@ -791,52 +526,6 @@
 
 @media (max-width: 533px) {
 
-    .footer-left {
-
-        position: absolute;
-
-        width: 70%;
-        height: 40%;
-
-        top: 20%;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    .footer-right {
-
-        position: absolute;
-
-        width: 60%;
-        height: 40%;
-
-        top: 28%;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    .footer-bottom {
-        position: absolute;
-
-        width: 40%;
-        height: 17%;
-
-        top: 90%;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    .footer-bottom p {
-        position: absolute;
-
-        padding: 0.5em;
-        font-size: 0.7rem;
-        opacity: 0.8;
-    }
-
     .footer-contact img {
         width: 9%;
         height: 35%;
@@ -847,70 +536,9 @@
 
 @media (max-width: 500px) {
 
-    .footer-left {
-
-        position: absolute;
-
-        width: 70%;
-        height: 40%;
-
-        top: 20%;
-        right: 0;
-        margin: auto;
-    }
-
-    .footer-right {
-
-        position: absolute;
-
-        width: 70%;
-        height: 40%;
-
-        top: 28%;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    .footer-bottom {
-        position: absolute;
-
-        width: 40%;
-        height: 17%;
-
-        top: 90%;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    .footer-bottom p {
-        position: absolute;
-
-        padding: 0.5em;
-        font-size: 0.7rem;
-        opacity: 0.8;
-    }
-
     .footer-contact img {
         width: 10%;
         height: 35%;
-    }
-
-    .footer-left h5, .footer-right h5 {
-        font-family: "Markazi Text", serif;
-        font-weight: 300;
-        font-style: normal;
-        font-size: 1.2rem;
-    }
-
-    .footer-left h6, .footer-right h6 {
-        font-family: "Italianno", cursive;
-        font-weight: 300;
-        font-style: normal;
-        font-size: 1.7rem;
-
-        margin-top: 0.8rem;
     }
 
 }
@@ -918,68 +546,6 @@
 /* ----------------------------------------- */
 
 @media (max-width: 425px) {
-
-    .footer-left {
-
-        position: absolute;
-
-        width: 81%;
-        height: 40%;
-
-        top: 20%;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    .footer-right {
-
-        position: absolute;
-
-        width: 100%;
-        height: 40%;
-
-        top: 28%;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    .footer-left h5, .footer-right h5 {
-        font-family: "Markazi Text", serif;
-        font-weight: 300;
-        font-style: normal;
-        font-size: 1.2rem;
-    }
-
-    .footer-left h6, .footer-right h6 {
-        font-family: "Italianno", cursive;
-        font-weight: 300;
-        font-style: normal;
-        font-size: 1.7rem;
-
-        margin-top: 0.8rem;
-    }
-
-    .footer-bottom {
-        position: absolute;
-
-        width: 100%;
-        height: 17%;
-
-        top: 90%;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    .footer-bottom p {
-        position: absolute;
-
-        padding: 0.5em;
-        font-size: 0.8rem;
-        opacity: 0.8;
-    }
 
     .footer-contact img {
         width: 13%;
@@ -991,37 +557,16 @@
 
 @media (max-width: 375px) {
 
-    .footer-left {
-
-        position: absolute;
-
-        width: 85%;
-        height: 40%;
-
-        top: 20%;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    .footer-right {
-
-        position: absolute;
-
-        width: 100%;
-        height: 40%;
-
-        top: 28%;
-        left: 0;
-        right: 0;
-        margin: auto;
+    .footer-contact img {
+        width: 14%;
+        height: 30%;
     }
 
     .footer-left h5, .footer-right h5 {
         font-family: "Markazi Text", serif;
         font-weight: 300;
         font-style: normal;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     .footer-left h6, .footer-right h6 {
@@ -1030,32 +575,20 @@
         font-style: normal;
         font-size: 1.6rem;
 
-        margin-top: 0.8rem;
-    }
-
-    .footer-bottom {
-        position: absolute;
-
-        width: 100%;
-        height: 17%;
-
-        top: 90%;
-        left: 0;
-        right: 0;
-        margin: auto;
+        margin-top: 3rem;
     }
 
     .footer-bottom p {
         position: absolute;
+        width: 100%;
+        text-align: center;
 
+        font-family: "Amiri", serif;
+        font-weight: 500;
+        font-style: normal;
         padding: 0.5em;
         font-size: 0.8rem;
         opacity: 0.8;
-    }
-
-    .footer-contact img {
-        width: 14%;
-        height: 30%;
     }
 }
 
@@ -1063,71 +596,38 @@
 
 @media (max-width: 320px) {
 
-    .footer-left {
-
-        position: absolute;
-
-        width: 82%;
-        height: 40%;
-
-        top: 20%;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    .footer-right {
-
-        position: absolute;
-
-        width: 100%;
-        height: 40%;
-
-        top: 28%;
-        left: 0;
-        right: 0;
-        margin: auto;
+    .footer-contact img {
+        width: 14%;
+        height: 26%;
     }
 
     .footer-left h5, .footer-right h5 {
         font-family: "Markazi Text", serif;
         font-weight: 300;
         font-style: normal;
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
     .footer-left h6, .footer-right h6 {
         font-family: "Italianno", cursive;
         font-weight: 300;
         font-style: normal;
-        font-size: 1.3rem;
+        font-size: 1.4rem;
 
-        margin-top: 0.8rem;
-    }
-
-    .footer-bottom {
-        position: absolute;
-
-        width: 100%;
-        height: 17%;
-
-        top: 90%;
-        left: 0;
-        right: 0;
-        margin: auto;
+        margin-top: 4rem;
     }
 
     .footer-bottom p {
         position: absolute;
+        width: 100%;
+        text-align: center;
 
+        font-family: "Amiri", serif;
+        font-weight: 500;
+        font-style: normal;
         padding: 0.5em;
         font-size: 0.8rem;
         opacity: 0.8;
-    }
-
-    .footer-contact img {
-        width: 14%;
-        height: 28%;
     }
 }
 

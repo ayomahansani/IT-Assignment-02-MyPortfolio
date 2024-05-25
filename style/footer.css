@@ -83,11 +83,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 }
 
 .footer-contact img {
-    width: 7%;
+    width: 45%;
     height: 55%;
+}
+
+.footer-contact>a:nth-child(2)>img {
+    transform: scale(1.2);
+}
+
+.footer-contact>a:nth-child(2)>img:hover {
+    transform: scale(1.5);
+    transition: 0.5s ease-in-out;
 }
 
 .footer-contact img:hover {
@@ -127,6 +137,8 @@
     font-size: 0.9rem;
     opacity: 0.8;
 }
+
+
 
 /* ----------------------------------------- */
 

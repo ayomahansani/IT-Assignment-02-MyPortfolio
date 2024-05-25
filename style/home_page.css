@@ -17,9 +17,6 @@
     --third-text-color: #B99292;
 }
 
-/*body {*/
-/*    background-color: var(--bg-color);*/
-/*}*/
 
 /* ------------------ Laptop L - 1440px -----------------------*/
 
@@ -55,7 +52,6 @@
 
 .navbar {
     display: flex;
-    /*text-shadow: 2px 2px 3px var(--second-text-color);*/
 }
 
 .navbar a {
@@ -109,8 +105,7 @@ header.scrolled {
 
 .left-side-contacts .contacts {
     position: absolute;
-    left: 0;
-    right: 0;
+    left: 14%;
     bottom: 7%;
     display: flex;
     flex-direction: column;
@@ -119,14 +114,22 @@ header.scrolled {
 }
 
 .left-side-contacts .contacts img {
-    width: 40%;
-    height: 40%;
-    margin: 25%;
+    width: 45%;
+    height: 45%;
+    margin: 20%;
+}
+
+.left-side-contacts .contacts>a:nth-child(2)>img {
+    transform: scale(1.25);
 }
 
 .left-side-contacts .contacts img:hover {
     transform: scale(1.5);
     transition: 0.8s ease-in-out;
+}
+
+.left-side-contacts .contacts>a:nth-child(2)>img:hover {
+    transform: scale(1.75);
 }
 
 .hello-world {
@@ -170,10 +173,6 @@ header.scrolled {
     left: 12%;
 }
 
-/*.name:hover {*/
-/*    color: rgba(255, 255, 255, 0.88);*/
-/*}*/
-
 .name-part {
     font-family: "Otomanopee One", serif;
     font-weight: 400;
@@ -181,10 +180,6 @@ header.scrolled {
     font-size: 4.2rem;
     color: var(--text-color);
 }
-
-/*.name-part:hover {*/
-/*    color: rgba(255, 255, 255, 0.88);*/
-/*}*/
 
 .description {
     font-family: "Radley", serif;
@@ -218,15 +213,6 @@ header.scrolled {
 
     animation: my-photo 4s infinite alternate;;
 }
-
-/*@keyframes my-photo  {*/
-/*    from{*/
-/*        transform: scale(1.3);*/
-/*    }to{*/
-/*         transform: scale(1.5);*/
-/*     }*/
-/*}*/
-
 
 
 /* -------------------------------------------------------- */
@@ -313,8 +299,7 @@ header.scrolled {
 
     .left-side-contacts .contacts {
         position: absolute;
-        left: 0;
-        right: 0;
+        left: 12%;
         bottom: 7%;
         display: flex;
         flex-direction: column;
@@ -323,14 +308,22 @@ header.scrolled {
     }
 
     .left-side-contacts .contacts img {
-        width: 40%;
-        height: 40%;
-        margin: 25%;
+        width: 45%;
+        height: 45%;
+        margin: 20%;
+    }
+
+    .left-side-contacts .contacts>a:nth-child(2)>img {
+        transform: scale(1.25);
     }
 
     .left-side-contacts .contacts img:hover {
         transform: scale(1.5);
         transition: 0.8s ease-in-out;
+    }
+
+    .left-side-contacts .contacts>a:nth-child(2)>img:hover {
+        transform: scale(1.75);
     }
 
     .hello-world {
@@ -648,8 +641,7 @@ header.scrolled {
 
     .left-side-contacts .contacts {
         position: absolute;
-        left: 0;
-        right: 0;
+        left: 13%;
         bottom: 7%;
         display: flex;
         flex-direction: column;
@@ -658,20 +650,28 @@ header.scrolled {
     }
 
     .left-side-contacts .contacts img {
-        width: 40%;
-        height: 40%;
-        margin: 25%;
+        width: 44%;
+        height: 44%;
+        margin: 20%;
+    }
+
+    .left-side-contacts .contacts>a:nth-child(2)>img {
+        transform: scale(1.25);
     }
 
     .left-side-contacts .contacts img:hover {
         transform: scale(1.5);
         transition: 0.8s ease-in-out;
     }
+
+    .left-side-contacts .contacts>a:nth-child(2)>img:hover {
+        transform: scale(1.75);
+    }
 }
 
 /* -------------------------------------------------------- */
 
-@media (max-width: 1180px) {
+@media (max-width: 1182px) {
 
     .hero-section {
         position: relative;
@@ -832,7 +832,7 @@ header.scrolled {
     /*}*/
 
     .left-side-contacts {
-        width: 5.5vw;
+        width: 5.9vw;
         height: 100vh;
 
         position: relative;
@@ -851,8 +851,7 @@ header.scrolled {
 
     .left-side-contacts .contacts {
         position: absolute;
-        left: 0;
-        right: 0;
+        left: 13%;
         bottom: 7%;
         display: flex;
         flex-direction: column;
@@ -861,14 +860,22 @@ header.scrolled {
     }
 
     .left-side-contacts .contacts img {
-        width: 40%;
-        height: 40%;
-        margin: 25%;
+        width: 44%;
+        height: 44%;
+        margin: 20%;
+    }
+
+    .left-side-contacts .contacts>a:nth-child(2)>img {
+        transform: scale(1.25);
     }
 
     .left-side-contacts .contacts img:hover {
         transform: scale(1.5);
         transition: 0.8s ease-in-out;
+    }
+
+    .left-side-contacts .contacts>a:nth-child(2)>img:hover {
+        transform: scale(1.75);
     }
 }
 
@@ -902,6 +909,53 @@ header.scrolled {
         align-items: center;
         z-index: 5;
         box-shadow: 20px 13px 1px rgba(255, 255, 255, 0.25);
+    }
+
+    .left-side-contacts {
+        width: 6.5vw;
+        height: 100vh;
+
+        position: relative;
+
+        top: 0;
+        left: 0;
+
+        background-color: var(--second-bg-color);
+        opacity: 0.8;
+        backdrop-filter: blur(10px);
+        justify-content: space-between;
+        align-items: center;
+        z-index: 5;
+        box-shadow: 13px 1px rgba(255, 255, 255, 0.28);
+    }
+
+    .left-side-contacts .contacts {
+        position: absolute;
+        left: 13%;
+        bottom: 7%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .left-side-contacts .contacts img {
+        width: 44%;
+        height: 44%;
+        margin: 20%;
+    }
+
+    .left-side-contacts .contacts>a:nth-child(2)>img {
+        transform: scale(1.25);
+    }
+
+    .left-side-contacts .contacts img:hover {
+        transform: scale(1.5);
+        transition: 0.8s ease-in-out;
+    }
+
+    .left-side-contacts .contacts>a:nth-child(2)>img:hover {
+        transform: scale(1.75);
     }
 
 }

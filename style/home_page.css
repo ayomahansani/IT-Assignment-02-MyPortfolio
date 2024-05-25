@@ -3041,8 +3041,8 @@ header.scrolled {
     /*}*/
 
     .left-side-contacts {
-        width: 12vw;
-        height: 27vh;
+        width: 15vw;
+        height: 26vh;
 
         position: absolute;
 
@@ -3060,10 +3060,20 @@ header.scrolled {
         flex-direction: column;
     }
 
+    .left-side-contacts .contacts {
+        position: absolute;
+        left: 14%;
+        bottom: 7%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .left-side-contacts .contacts img {
-        width: 52%;
-        height: 52%;
-        margin: 30%;
+        width: 54%;
+        height: 54%;
+        margin: 13%;
     }
 
     .left-side-contacts .contacts img:hover {

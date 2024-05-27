@@ -60,14 +60,14 @@
 
     display: flex;
     align-items: center;
-    gap: 1.9rem;
+    gap: 1.5rem;
     list-style: none;
 }
 
 .header .navbar ul li {
     display: flex;
     align-items: center;
-    gap: 1.9rem;
+    gap: 1.5rem;
 }
 
 .header .navbar ul li a {

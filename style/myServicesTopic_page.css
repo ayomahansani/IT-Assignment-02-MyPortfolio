@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --bg-color: black;
+    --second-bg-color: rgb(185, 146, 146);
+    --text-color: white;
+    --second-text-color: black;
+    --third-text-color: #B99292;
+}
+
+.myServices-section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+
+    background-color: yellow;
+
+}

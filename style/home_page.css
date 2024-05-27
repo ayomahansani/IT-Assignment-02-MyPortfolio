@@ -85,7 +85,7 @@
     border-bottom: 3px solid var(--text-color);
 }
 
-.hea .navbar h2 {
+.header .navbar h2 {
     font-size: 1.1rem;
     color: var(--second-text-color);
     font-weight: 500;

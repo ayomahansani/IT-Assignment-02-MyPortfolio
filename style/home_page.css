@@ -36,8 +36,7 @@
 
     position: fixed;
 
-    /*background-color: var(--second-bg-color);*/
-    background-color: yellow;
+    background-color: var(--second-bg-color);
     opacity: 0.8;
     backdrop-filter: blur(10px);
     z-index: 5;

@@ -51,7 +51,7 @@
     top: 0;
 }
 
-.navbar ul {
+.header .navbar ul {
     position: absolute;
     right: 0;
     top: 0;
@@ -64,13 +64,13 @@
     list-style: none;
 }
 
-.navbar ul li {
+.header .navbar ul li {
     display: flex;
     align-items: center;
     gap: 1.9rem;
 }
 
-.navbar ul li a {
+.header .navbar ul li a {
     font-family: "Kameron", serif;
     font-style: normal;
     font-size: 1rem;
@@ -80,17 +80,17 @@
     border-bottom: 3px solid transparent;
 }
 
-.navbar ul li a:hover, .navbar ul li a.active {
+.header .navbar ul li a:hover, .header .navbar ul li a.active {
     color: var(--text-color);
     border-bottom: 3px solid var(--text-color);
 }
 
-.navbar h2 {
+.header .navbar h2 {
     color: var(--second-text-color);
     font-weight: 300;
 }
 
-.navbar #icon {
+.header .navbar #icon {
     float: right;
     margin-right: 20px;
     cursor: pointer;

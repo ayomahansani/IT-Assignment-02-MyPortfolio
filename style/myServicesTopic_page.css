@@ -125,10 +125,26 @@
 
     .myServicesTopic-img img {
         position: absolute;
-        width: 75%;
+        width: 80%;
         height: 90%;
 
         transform: scale(1.5);
+        left: 15%;
+
+        opacity: 0.15;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+@media (max-width: 900px) {
+
+    .myServicesTopic-img img {
+        position: absolute;
+        width: 85%;
+        height: 90%;
+
+        transform: scale(1.7);
         left: 15%;
 
         opacity: 0.15;
@@ -141,11 +157,11 @@
 
     .myServicesTopic-img img {
         position: absolute;
-        width: 70%;
+        width: 95%;
         height: 90%;
 
-        transform: scale(1.5);
-        left: 15%;
+        transform: scale(1.7);
+        left: 5%;
 
         opacity: 0.15;
     }
@@ -195,10 +211,12 @@
 
     .myServicesTopic-img img {
         position: absolute;
-        width: 100vw;
-        height: 100vh;
+        width: 90%;
+        height: 90%;
 
-        transform: scale(1.4);
+        transform: scale(1.7);
+        top: 5%;
+        left: 5%;
 
         opacity: 0.15;
     }

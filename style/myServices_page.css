@@ -857,7 +857,13 @@
         height: 12%;
 
         bottom: 2%;
-        display: none;
+    }
+
+    .services-container>div:nth-child(2)>.layer img {
+        width: 6%;
+        height: 12%;
+
+        bottom: 2%;
     }
 
 }
@@ -952,7 +958,13 @@
         height: 12%;
 
         bottom: 2%;
-        display: none;
+    }
+
+    .services-container>div:nth-child(2)>.layer img {
+        width: 7%;
+        height: 12%;
+
+        bottom: 2%;
     }
 
 }

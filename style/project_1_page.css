@@ -141,6 +141,11 @@
     opacity: 0.8;
 }
 
+.project-1-section .project-1-section-left-side .project-1-section-left-side-content a:hover {
+    color: white;
+    box-shadow: 0 0 0.5rem white;
+}
+
 .project-1-section .project-1-section-left-side .project-1-section-left-side-content .project-1-photos {
     position: absolute;
     width: 81%;

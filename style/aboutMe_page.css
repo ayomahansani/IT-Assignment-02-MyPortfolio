@@ -223,6 +223,11 @@
     margin-left: 0.5rem;
 }
 
+.aboutMe-left-side .myCV p:nth-child(1) img:hover{
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
 .aboutMe-right-side .border-1 {
     position: absolute;
     width: 35%;
